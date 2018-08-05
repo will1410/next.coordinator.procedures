@@ -10,7 +10,7 @@ One side effect of 5 or 6 staff members managing a Koha installation for over 10
 
   If someone needed a report that listed items with lost statuses but limited by item type and someone else needed a report that listed items with lost statuses but limited by collection code, 2 reports were written.  Since I've been working at NEKLS, we've adopted more flexible report writing as described here: https://kohathings.blogspot.com/2017/08/using-autorised-values-tables-and.html
 
-3. Reports that became obsolete or were no longer necessary were never deleted.
+3. Reports that became obsolete or were no longer necessary were never deleted
 
   Since we have been using Koha since 2008, we have many reports that no longer work but have not been deleted.
 
