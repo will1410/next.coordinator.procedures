@@ -1,0 +1,2 @@
+//BEGIN hide facet in OPAC
+  $(".facet-label a[title|='XXX']").hide();
