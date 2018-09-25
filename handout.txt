@@ -1,0 +1,13 @@
+1. Confidentiality and privacy concern is staff at other libraries
+2. In the European Union GDPR is the new rule - Koha is being adapted in order to meet the requirements of GRPR
+3. Some of the features that will be coming include:
+
+a. Default privacy rule will become "Never" for new patrons by the end of 2019 - opt in instead of opt-out
+b. Staff will have the ability to edit a patron's privacy settings from the staff client - we'll have this before we have #a
+c. Holds history will have similar privacy controls to checkout history - possibly by the end of this year
+d. Patrons will have the ability to download all of their data from the OPAC with 1 click - probaly by the end of 2019
+e. There will be a 1-click method available for staff that will both anonymize and delete any patron data on a "clear" patron's account - probably by the end of 2019
+f. We will have the option of allowing "clear" patrons to self-delete - probably by the end of 2020
+g. More non-identifiable information will be moved to the statistics table so that we can collect statistical data even if patron information is deleted/anonymized 
+
+4. In addition to the Privacy and Confidentiality statement we're going to create an online course to help teach library staff about privacy and Confidentiality
