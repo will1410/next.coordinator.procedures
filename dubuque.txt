@@ -1,0 +1,8 @@
+//BEGIN hide facet in OPAC
+//replace the XXX with the item type code
+  $(".facet-label a[title|='XXX']").hide();
+
+//BEGIN hide facet in OPAC
+//the PEDDLER-D and PEDDLER should be right for your need
+  $(".facet-label a[title|='PEDDLER-D']").hide();
+  $(".facet-label a[title|='PEDDLER']").hide();
