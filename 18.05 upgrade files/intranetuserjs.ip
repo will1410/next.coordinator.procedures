@@ -18,8 +18,6 @@ $(document).ready(function() {
   //BEGIN add message to login page
    $("#main_auth.main_main-auth #login").parent().prepend("<h3 id='upgrade_note2' class='upgrade'><font color='#ff0000'>The NExpress catalog was upgraded on the evening of Saturday, July 28, 2018.<br /><br />Remember that you must clear your Firefox cache (type ctrl-shift-delete while you have Firefox open)<br />the first time you log in after the upgrade in order to make sure there are no old pages interfering with the upgraded version.<br /><br />If you don't know how to do that, please <span class='highlight'><strong><a href='https://drive.google.com/file/d/0B1y1vSumiZCKaEV4aC11eWgtUlU/view' target='_blank'>click here</a></strong></span> for instructions.</font></h3>");
 
-   =============================================================================================================
-
  //Koha > * (all pages)
   //BEGIN Prevent doing a Checkout search for short strings
    $("#patronsearch").on('submit', function(e){
@@ -156,6 +154,8 @@ $(document).ready(function() {
 
 //Cataloging > Edit TITLE > Items
  $('#subfield9523').hide();
+
+ ========================================================================
 
 //Catalog > Item details for -TITLE-
  //BEGIN Hide lost value 2  (Lost (more than 45 days overdue)) from item details screen
