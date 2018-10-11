@@ -155,11 +155,12 @@ $(document).ready(function() {
 //Cataloging > Edit TITLE > Items
  $('#subfield9523').hide();
 
- ========================================================================
+
 
 //Catalog > Item details for -TITLE-
  //BEGIN Hide lost value 2  (Lost (more than 45 days overdue)) from item details screen
   $("div.listgroup:nth-child(3) > ol:nth-child(2) > li:nth-child(4) > form:nth-child(2) > select:nth-child(4) option[value='2']").hide();
+
  //BEGIN hide paid for by and rename last borrower information
   $('#catalog_moredetail li:contains("Paid for")').hide();
   $('#catalog_moredetail li:contains("Last borrower")').addClass("lborrower2");
@@ -185,6 +186,8 @@ $(document).ready(function() {
    var text = $(this).text();
    $(this).text(text.replace(' available', ' not checked out'));
   });
+
+======================================================================
 
  //BEGIN Toggle non-local copies in search results
   //Create buttons to revert view
