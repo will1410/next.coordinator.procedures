@@ -187,8 +187,6 @@ $(document).ready(function() {
    $(this).text(text.replace(' available', ' not checked out'));
   });
 
-======================================================================
-
  //BEGIN Toggle non-local copies in search results
   //Create buttons to revert view
    $("#catalog_results #selection_ops").append('<div class="btn-group" style="padding-left: 50px"><a class="btn btn-default btn-xs" id="results_sh" href="#" style="display: block; width: 125px; border-radius: 5px;"><span id="results_all" style="display: block;">Show all copies</span><span id="results_loc" style="display: none;">Show local copies</span></a></div>');
@@ -822,6 +820,8 @@ $(document).ready(function() {
     $(this).siblings().css("background-color", "yellow");
    });
   });
+
+  =============================================================================
 
 //Patrons › Update patron records
  //BEGIN Hide patron update notices from other branches (based on first 4 letters of the branch name)
