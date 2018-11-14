@@ -18,3 +18,5 @@ In areas B and C, we could do better and some tools are being built to help in t
 7.	More non-identifiable information will be moved to the statistics tables so that we can track statistical data without having to connect the statistics back to patron records (ongoing)
 
 8.	NEKLS staff are working on an online course for learning about Privacy and Confidentiality that will be available, hopefully, as soon November or December of this year
+
+9. This is a sample piece of text
