@@ -1,0 +1,29 @@
+Cosmetic and Miscellaneous Changes
+
+My name is George Williams and I'm the Next Search Catalog Coordinator at Northeast Kansas Library System.
+
+Next will be upgraded to Koha 18.05 on the evening of December 8, 2018.
+
+This video will walk Next staff through some of the cosmetic and smaller differences that you will notice when we upgrade.  I'm going to switch back and forth in the video between the Next production server and our test server in this video.  Our production server is still running Koha 17.11 but the test server has already been upgraded to Koha 18.05.
+
+The first change you're going to notice after the upgrade is in the header that appears on all of the pages in Next.  Here in the current system I'm going to go to the home page and go up to the "Search" button at the top of the page.  A couple of upgrades ago, "Search" changed from being a simple link that you could click on to go to the advanced search page into a drop-down button that you have to click on in order to get to the "Advanced Search" page.  I, personally, found this annoying because whoever developed that idea turned something that used to be 1 click into two clicks - first you click on "Search" and then you have to click on "Advanced search."  And this also holds true for the other drop-down buttons on the left hand side of the header.  If you hover over "Helpful links" or "More," they will also open without clicking too.
+
+I'll switch over to the test server now and show you that this has changed slightly.  After the upgrade, you no longer have to click on "Search" to open the drop down.  As soon as the mouse pointer hovers over "Search," the drop-down menu opens.  So one less click.
+
+The next change is also cosmetic.  So, I'm going to switch back to the production server and click on "Circulation."  This should look fairly familiar to everyone.  Let me switch over to the test server, though, and click on "Circulation," though, and you'll see that it looks a lot different.  All of the same functions are here - the page just looks completely different.
+
+And the same is true of the "Reports" page.  Here on the Production server, you can see the way it's been for years.  If I switch over to the test server, though, the look of this page is also significantly different.  Again, all of the same stuff is here - it just looks different.  There is one functional change, though.  If you want to do a search for a report, you can do it here, before you get to the "Saved reports" page.
+
+And when you do go to the "Use saved" reports page, you'll notice that there are some new control buttons at the top of the reports table.  These are going to pop up on several tables that have this style of control bar at the top of the table - including Fines and checkouts.  This will allow you to print or export those tables into csv or PDF format.
+
+The next two changes are ones that catalogers are going to like.  First off, I'm going to go to the production server and run a Z39.50 search for DAY OF THE JACKAL at Library of Congress and everyone who catalogs should be familiar with the results page.  Then, I'm going to go back to the production server and run the same Z39.50 search.  When I put these up side-by-side you can see that "Marc preview," "Card preview," and "Import" links have now become options on a drop-down button.  More importantly, though, you'll notice that when you click on a row, instead of turning a slightly different color of grey, it turns a nice bright orange which makes it easier to remember which item you were just previewing.
+
+And the next change that will primarily affect catalogers is the layout of the add/edit items page.  Again, here's the current version on the production server.  And here's the look of the new version.  The labels for the fields are right-tabbed closer to the fields they go with.
+
+Finally, there is a small change that's not cosmetic.  If you're a library director or a staff member who has to manage the patron suggestion feature, you may have noticed that we have hundreds of suggestions that are very old.  With the new version we will be able to automatically delete any suggestions that are more than 13 months old.  This isn't really anything I can show you, but I want everyone to be aware of it.
+
+To wrap up, the upgrade take place on Saturday, December 8, after 8:00 p.m.  It will probably take about two to four hours.  Everything should be back to normal on the mornign of the 9th.
+
+If you need any help or have any problems you can call us at the NEKLS office or you can send us an e-mail to nexthelp@nekls.org.
+
+Again, this is George Williams and I am the Next Search Catalog Coordinator for the Northeast Kansas Library System.
