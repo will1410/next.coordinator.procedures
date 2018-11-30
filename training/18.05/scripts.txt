@@ -6,13 +6,17 @@ Next will be upgraded to Koha 18.05 on the evening of December 8, 2018.
 
 This video will walk Next staff through some of the cosmetic and smaller differences that you will notice when we upgrade.  I'm going to switch back and forth in the video between the Next production server and our test server in this video.  Our production server is still running Koha 17.11 but the test server has already been upgraded to Koha 18.05.
 
-The first change you're going to notice after the upgrade is in the header that appears on all of the pages in Next.  Here in the current system I'm going to go to the home page and go up to the "Search" button at the top of the page.  A couple of upgrades ago, "Search" changed from being a simple link that you could click on to go to the advanced search page into a drop-down button that you have to click on in order to get to the "Advanced Search" page.  I, personally, found this annoying because whoever developed that idea turned something that used to be 1 click into two clicks - first you click on "Search" and then you have to click on "Advanced search."  And this also holds true for the other drop-down buttons on the left hand side of the header.  If you hover over "Helpful links" or "More," they will also open without clicking too.
+If you don't know how to log into the test server, I'll show you that first.  You want to go to the home page in Next and scroll down till you see "Test server" on the left hand side of the screen.  There is a test staff client and a test OPAC.  You should be able to log into the test server using the username/password that you had at the last time the test server database was updated.  In this case, that was on October 11, 2018.
 
-I'll switch over to the test server now and show you that this has changed slightly.  After the upgrade, you no longer have to click on "Search" to open the drop down.  As soon as the mouse pointer hovers over "Search," the drop-down menu opens.  So one less click.
+And since we're over here on the left hand side of the Next home page, I'll also scroll back up and point out that there is a training website that covers the same information that I'm talking about here in these videos.  If you go up here where it says "Koha upgrade training" and click on "Koha 18.05 training site for Next members," that link will take you to this site which walks through all of the things I'm talking about in this video.
 
-The next change is also cosmetic.  So, I'm going to switch back to the production server and click on "Circulation."  This should look fairly familiar to everyone.  Let me switch over to the test server, though, and click on "Circulation," though, and you'll see that it looks a lot different.  All of the same functions are here - the page just looks completely different.
+As far as changes go, the first change I'll show you is in the header that appears on all of the pages in Next.  Here in the current system I'm going to go to the home page and go up to the "Search" button at the top of the page.  A couple of upgrades ago, "Search" changed from being a simple link that you could click on to go to the advanced search page into a drop-down button that you have to click on in order to get to the "Advanced Search" page.  I, personally, found this annoying because whoever developed that idea turned something that used to be 1 click into two clicks - first you click on "Search" and then you have to click on "Advanced search."  And this also holds true for the other drop-down buttons on the left hand side of the header.
 
-And the same is true of the "Reports" page.  Here on the Production server, you can see the way it's been for years.  If I switch over to the test server, though, the look of this page is also significantly different.  Again, all of the same stuff is here - it just looks different.  There is one functional change, though.  If you want to do a search for a report, you can do it here, before you get to the "Saved reports" page.
+I'll switch over to the test server now and show you that this has changed slightly.  After the upgrade, you no longer have to click on "Search" to open the drop down.  As soon as the mouse pointer hovers over "Search," the drop-down menu opens.  So one less click.  And this also works if you hover over "Helpful links" or "More," after the upgrade, they will also open without clicking too.
+
+The next change is also cosmetic.  So, I'm going to switch back to the production server and click on "Circulation."  This should look fairly familiar to everyone.  Let me switch over to the test server and click on "Circulation," though, and you'll see that it looks a lot different.  All of the same functions are here - the page just looks completely different.  All of the things that used to be links are now big buttons and the tabbed content down here is full screen width instead of being a narrow box in the middle of the screen.
+
+And the same is true of the "Reports" page.  Here on the Production server, you can see the way it's been for years.  If I switch over to the test server, though, the look of this page is significantly different.  Again, all of the same stuff is here - it just looks different.  There is one functional change, though.  If you want to do a search for a report, you can do it here, before you get to the "Saved reports" page.
 
 And when you do go to the "Use saved" reports page, you'll notice that there are some new control buttons at the top of the reports table.  These are going to pop up on several tables that have this style of control bar at the top of the table - including Fines and checkouts.  This will allow you to print or export those tables into csv or PDF format.
 
@@ -22,7 +26,46 @@ And the next change that will primarily affect catalogers is the layout of the a
 
 Finally, there is a small change that's not cosmetic.  If you're a library director or a staff member who has to manage the patron suggestion feature, you may have noticed that we have hundreds of suggestions that are very old.  With the new version we will be able to automatically delete any suggestions that are more than 13 months old.  This isn't really anything I can show you, but I want everyone to be aware of it.
 
-To wrap up, the upgrade take place on Saturday, December 8, after 8:00 p.m.  It will probably take about two to four hours.  Everything should be back to normal on the mornign of the 9th.
+To wrap up, the upgrade take place on Saturday, December 8, after 8:00 p.m.  It will probably take about two to four hours.  Everything should be back to normal on the morning of the 9th.
+
+If you need any help or have any problems you can call us at the NEKLS office or you can send us an e-mail to nexthelp@nekls.org.
+
+Again, this is George Williams and I am the Next Search Catalog Coordinator for the Northeast Kansas Library System.
+
+
+====================================
+
+Browse Search Results
+
+My name is George Williams and I'm the Next Search Catalog Coordinator at Northeast Kansas Library System.
+
+Next will be upgraded to Koha 18.05 on the evening of December 8, 2018.
+
+This is the second video in a series of 3 that explains some of the things that will be different after the upgrade and this will probably be the shortest of these 3 videos.  This video will walk Next staff through a change to the search results function in the staff client after the upgrade.  Like I said in the last video, our production server is still running Koha 17.11 but the test server has already been upgraded to Koha 18.05, so I'm going to show you how this works on our test server.
+
+I'll also point out again that if you don't know how to get to the test server, you'll want to go to the home page in Next and scroll down till you see "Test server" on the left hand side of the screen.  There is a test staff client and a test OPAC.  You should be able to log into the test server using the username/password that you had at the last time the test server database was updated.  In this case, that was on October 11, 2018.
+
+And since we're over here on the left hand side of the Next home page, I'll also scroll back up and point out that there is a training website that covers the same information that I'm talking about here in these videos.  If you go up here where it says "Koha upgrade training" and click on "Koha 18.05 training site for Next members," that link will take you to this site which walks through all of the things I'm talking about in this video.
+
+I'm going to completely flip over to the test server now and I'm going to do a simple search for Bats.  And as you can see there are a bunch of records.
+
+If I click on the first record, you'll notice this box up here that says "Return to results," "Previous," and "Next" and if I click on next I'll go to #2 on the list, then #3 on the list, and so on and so on until I get to the final result.
+
+I'm going to click back now.  If I check some checkboxes here, lets says # and # and # and then click on this new button that says "Browse selected results" and then click on the "Next" button up here, I'm going to go from record # to record # to record # instead of scrolling throuh all big# results.
+
+And if you think this is a pretty nice enhancement, just wait.  There's more.
+
+If I click on record # and # and # on this first page of results, and then go ahead a page in the results list and click on number # and number # and # and then click on "Browse selected results," it will browse through the results on page 1 and page 2 because the new version will remember which checkboxes were checked on each page.
+
+You can also check the boxes on multiple pages and then add those items to a list or to the cart.
+
+Unfortunately this does not work with the "Place hold" button.  There is a work-around, though.  If you add the items selected to the cart, you can then place a request on everything in the cart.  That's not as easy as if you could just use the "Place hold" button, but it will work.  Getting that function to also work with the "Place hold" button is in the works, but not yet for this version.
+
+This also currently works only in the staff client.  But, again, that's a feature we may see in the next version next summer or next winter.
+
+Like I said, this will be the shortest of these videos.
+
+To wrap up, the upgrade take place on Saturday, December 8, after 8:00 p.m.  It will probably take about two to four hours.  Everything should be back to normal on the morning of the 9th.
 
 If you need any help or have any problems you can call us at the NEKLS office or you can send us an e-mail to nexthelp@nekls.org.
 
