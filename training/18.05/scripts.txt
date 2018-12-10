@@ -70,3 +70,29 @@ To wrap up, the upgrade take place on Saturday, December 8, after 8:00 p.m.  It 
 If you need any help or have any problems you can call us at the NEKLS office or you can send us an e-mail to nexthelp@nekls.org.
 
 Again, this is George Williams and I am the Next Search Catalog Coordinator for the Northeast Kansas Library System.
+
+====================================
+
+Patron account changes
+
+My name is George Williams and I'm the Next Search Catalog Coordinator at Northeast Kansas Library System.
+
+Next will be upgraded to Koha 18.05 on the evening of December 8, 2018.
+
+This is the third video in a series of 3 that explains some of the things that will be different after the upgrade.  This video will walk Next staff through a bunch of changes to the patron accounts module in the staff client after the upgrade.  Like I said in the last video, our production server is still running Koha 17.11 but the test server has already been upgraded to Koha 18.05, so I'm going to show you how this works on our test server.
+
+I'll also point out again that if you don't know how to get to the test server, you'll want to go to the home page in Next and scroll down till you see "Test server" on the left hand side of the screen.  There is a test staff client and a test OPAC.  You should be able to log into the test server using the username/password that you had at the last time the test server database was updated.  In this case, that was on October 11, 2018.
+
+And since we're over here on the left hand side of the Next home page, I'll also scroll back up and point out that there is a training website that covers the same information that I'm talking about here in these videos.  If you go up here where it says "Koha upgrade training" and click on "Koha 18.05 training site for Next members," that link will take you to this site which walks through all of the things I'm talking about in this video.
+
+--
+
+
+
+
+
+To wrap up, the upgrade take place on Saturday, December 8, after 8:00 p.m.  It will probably take about two to four hours.  Everything should be back to normal on the morning of the 9th.
+
+If you need any help or have any problems you can call us at the NEKLS office or you can send us an e-mail to nexthelp@nekls.org.
+
+Again, this is George Williams and I am the Next Search Catalog Coordinator for the Northeast Kansas Library System.
