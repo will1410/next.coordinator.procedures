@@ -1,0 +1,13 @@
+calendar
+
+ OverdueNoticeCalendar needs to be set to Use Calendar
+
+ useDaysMode needs to be set to PUSH
+
+ finesCalendar needs to be set to "directly"
+
+ All library calendars need to be updated if the library is "open in Koha" 7 days a week but the library is not actually open 7 days a week.
+
+
+
+ 
