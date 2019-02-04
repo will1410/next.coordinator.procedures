@@ -3,7 +3,7 @@ Lynda update dates and links
 lynda.com/courselist?marc=true&library=en&contentStartDate=2018-08-30&format=marc&organization=nekls.org
 lynda.com/courselist?marc=true&library=en&contentStartDate=2018-10-11&format=marc&organization=nekls.org
 lynda.com/courselist?marc=true&library=en&contentStartDate=2018-11-15&format=marc&organization=nekls.org
-
+lynda.com/courselist?marc=true&library=en&contentStartDate=2018-12-14&format=marc&organization=nekls.org
 
 NEXT UPDATE
-lynda.com/courselist?marc=true&library=en&contentStartDate=2018-12-14&format=marc&organization=nekls.org
+lynda.com/courselist?marc=true&library=en&contentStartDate=2019-02-04&format=marc&organization=nekls.org
