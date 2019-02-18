@@ -3,3 +3,9 @@ SQL bits and pieces
 <p></p>
 <p><span style="background-color:darkred; color:white;">Scheduled to be deleted on March 31, 2019</span></p>
 <p></p>
+
+jQ
+
+//Good for updating a bunch of ccodes or other authorised values
+$("#admin_authorised_values #branches option").attr("selected","selected");
+$("#admin_authorised_values #branches option[value='DIGITAL'], #admin_authorised_values #branches option[value='']").removeAttr("selected");
