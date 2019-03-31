@@ -1,0 +1,3 @@
+Sphinx
+
+xcopy /s /i /e /y C:\Users\George\Documents\GitHub\next.training\build\html C:\Users\George\Documents\GitHub\next.training\docs
