@@ -1,0 +1,181 @@
+#blockedpatron {background-color: yellow; border-radius: 10px;}
+
+#dontedit {background-color: red; color: white; visibility: none; border-radius: 10px;}
+
+#cphighlight {outline: 7px solid green; background-color: green; color: white;}
+
+.pat #RenewCheckinChecked, .pat #RenewAll, .pat label[for=override_limit], .pat #override_limit {display: none;}
+
+.minortr th {background-color: yellow !important;}
+
+.clicked {color: inherit; background-color: inherit;}
+.clicked:visited {color: white; background-color: black;}
+
+#lrrow td {background-color: yellow !important;}
+
+
+/* KOHA > Login screen */
+ /* hide upgrade notes */
+  .upgrade1 {text-align: center; color: #ff0000; display: none;}
+  .upgrade2 {text-align: center; color: #ff0000; display: none;}
+  .highlight {background-color: #ffff00;}
+
+ /* remove old logo */
+  #login > h1 {display: none;}
+
+ /* hide branch dropdown */
+  #main_auth #loginform label[for*='branch'] {display: none;}
+  #main_auth #login #loginform #branch {display: none;}
+
+/* KOHA > * (all pages) */
+ /* Hide My Account and My Checkouts from drop-down menu */
+  .toplinks-myaccount, .toplinks-mycheckouts {display: none;}
+
+ /* disable Firefox screenshots */
+  #firefox-screenshots-preselection-iframe {display: none !important;}
+
+ /* remove old logo */
+  #logo {display: none;}
+
+/* Home > Advanced search */
+ /* Advanced search - hide subtype filters */
+  #subtype {display: none;}
+
+/* Home > Administration > Circulation and fine rules */
+ /* disable rule cloning */
+  #admin_smart-rules #doc3.yui-t1 #yui-main div.yui-b:nth-child(1) > div:nth-child(3) > form:nth-child(2) {display: none;}
+
+
+/* Cart */
+ /* Removes the "Batch delete" link from the cart */
+  #cart_basket #bookbag_form #batch_delete {display: none;}
+
+/* Catalog > Details for TITLE */
+ /* Hides many links */
+  #batchedit,
+  #batchdelete,
+  #deleteallitems,
+  #batchedit-disabled,
+  #batchdelete-disabled,
+  #deleteallitems-disabled
+   {display: none;}
+
+/* Circulation > Checkouts */
+ /* Hide automatic renewals checkbox */
+  /*#circ_circulation #set-automatic-renewal {display: none;}*/
+
+
+#table_reports > thead > tr > th:nth-child(14) {display: none;}
+#table_reports > tbody > tr > td:nth-child(14) {display: none;}
+.rtablehtml #reportinfo {font-size: inherit; font-weight: inherit; background-color: inherit;}
+.rdonehtml #reportinfo {font-size: 14px; font-weight: normal; background-color: #FFFF66;}
+
+
+#toplevelnav {
+float: left;
+margin-left: .5em;
+width: 60em;
+}
+
+#circ_circulation .ColVis.TableTools {
+display: none;
+}
+
+.results_summary {
+font-size: 100%;
+color: #000000;
+line-height: 14px;
+}
+
+.results_summary .label {
+font-weight: bold;
+color: #000;
+}
+
+.results_summary.subjects {
+font-size: 85%;
+}
+
+.results_summary.contents {
+font-size: 85%;
+}
+.results_summary.online_resources {
+font-size: 85%;
+}
+
+h5.author {
+font-size: 110% !important;
+}
+
+<-- .patronbriefinfo .patronattribute {
+font-weight: bold;
+} -->
+
+
+.dropdown-menu ul li ul{
+   max-height:250px;
+   overflow-x:hidden;
+   overflow-y:auto;
+}
+
+/* -Home- Changes background of the news area (makes it easier to read) */
+#area-news {
+    background-color: #E0ECF8;
+}
+
+/* -Administration › Circulation and fine rules- hides columns in circulation rules (requires accompanying jQuery) */
+th.hiderule, td.hiderule {
+    min-width: 15px;
+    max-width: 15px;
+    text-indent: -9999px;
+}
+
+/* -Catalog > Details for TITLE- for collapsing "Contents" area - (requires corresponding jQuery) */
+<-- (for collapsing content area) -->
+#show_content {
+    color: #004d99;
+    display: inline;
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+/* - Catalog › Search for SEARCHTERMS- Removes "No image available" placeholders in search results */
+.no-image {
+display: none;
+}
+
+
+div.lastchecked {
+  background-color: lightgreen;
+}
+
+
+/* -Circulation › Checkouts › -PATRONNAME-- and all other pages with the "patroninfo" block - highlights patron attributes in yellow */
+.patronattribute {background-color: #ffff00;}
+
+
+/* Patrons */
+#pat_member div.btn-group:nth-child(2) {display: none;}
+
+/* Patrons › Pay fines for PATRONNAME */
+#table_account_fines td.actions a:nth-child(3) {display: none;}
+
+
+
+/* Custom styles here */
+
+#merge-patrons {display: none;}
+
+#sql {min-height: 500px !important;}
+#notes {min-width: 1000px !important; min-height: 250px !important;}
+
+
+.adminreport {display: none;}
+
+.nsystem_stop {padding: 10px; border: 5px solid red;}
+.nsystem_caut {padding: 10px; border: 5px solid yellow;}
+.nsystem_go {padding: 10px; border: 5px solid green;}
+.nlinks {padding: 10px; border: 5px solid aqua;}
+.nprof {padding: 10px; border: 5px solid mediumpurple;}
+.ncontact {padding: 10px; border: 5px solid midnightblue;}
+.ntraining {padding: 10px; border: 5px solid orange;}
