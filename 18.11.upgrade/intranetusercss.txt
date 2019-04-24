@@ -20,8 +20,7 @@
   .upgrade2 {text-align: center; color: #ff0000; display: none;}
   .highlight {background-color: #ffff00;}
 
- /* remove old logo */
-  #login > h1 {display: none;}
+
 
  /* hide branch dropdown */
   #main_auth #loginform label[for*='branch'] {display: none;}
