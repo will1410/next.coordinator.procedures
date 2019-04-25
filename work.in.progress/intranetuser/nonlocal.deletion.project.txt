@@ -1,0 +1,8 @@
+//BEGIN shut down batch deletion - requires corresponding css
+//CSS = .nondeleteable {color: red;}
+if ($('#tools_batchMod-del td:nth-child(8):not(:contains('+ newsnode +'))').length) {
+  $('#tools_batchMod-del td:nth-child(8):not(:contains('+ newsnode +'))').parent().addClass('nondeleteable');
+  $('input[name="mainformsubmit"]').hide();
+  $('.nondeleteable input[type="checkbox"]').attr('checked', false);
+  $("#cataloguing_additem_newitem").append('<h3>This set of barcode numbers contains items owned by other libraries.<br />Deleting this batch is not allowed.<br />Items owned by other libraries will show up in the table in red text.</h3>');
+}
