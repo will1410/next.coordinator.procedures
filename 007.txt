@@ -1,0 +1,6 @@
+$(".finerow td:nth-child(3)")val().each(function(){
+$.getJSON("/cgi-bin/koha/svc/report?id=3191%26param_name=borrowernumber&sql_params=" + ($(this).val()) + "&annotated=1", function(data) {
+    var libname = data[0].RESULT;
+    $(this).append(libname);
+   });
+  });

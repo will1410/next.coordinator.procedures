@@ -1,0 +1,15 @@
+if ( $('#finest tr td:nth-child(2) input:nth-child(3)').val() > -1) {
+ $.getJSON("/cgi-bin/koha/svc/report?id=3191%26param_name=borrowernumber&sql_params=" + ($(this).val()) + "&annotated=1", function(data) {
+  var branchresult = data[0].RESULT;
+  $(this).parent().prepend(branchresult);
+ });
+}
+
+
+
+if ( $('.finerow tr td:nth-child(2) input:nth-child(3)').length ) {
+$.getJSON("/cgi-bin/koha/svc/report?id=3191%26param_name=borrowernumber&sql_params=" + ($(this).val()) + "&annotated=1", function(data) {
+ var branchresult = data[0].RESULT;
+ $(this).parent().prepend(branchresult);
+});
+}

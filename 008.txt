@@ -1,0 +1,28 @@
+jQuery.fn.getowner = function() {
+  var inumberr = $(this).val()
+  return this.each(function() {
+    $.getJSON("/cgi-bin/koha/svc/report?id=3191%26param_name=borrowernumber&sql_params=" + inumberr + "&annotated=1", function(data) {
+     var libname = data[0].RESULT;
+     $(this).addClass(libname);
+    });
+
+         // do something to each item matching the selector
+    }
+}
+
+
+
+var itemidnumber = { "itemidnumbers" : [] };
+$('#finest tr td:nth-child(3)').each(function(i) {
+    itemidnumber ["itemidnumbers"].push({
+        "itemnumber" : $(this).val(),
+    });
+});
+
+    var json = (JSON.stringify(itemidnumber ));
+    document.getElementById('json').innerHTML = json;
+
+
+https://nextkansas.org/cgi-bin/koha/svc/report?id=3191%26param_name=borrowernumber&sql_params=45|55&annotated=1
+
+https://staff.nextkansas.org/cgi-bin/koha/reports/guided_reports.pl?reports=3191&phase=Run+this+report&param_name=Enter+item+id+number&sql_params=1168797&param_name=Enter+item+id+snumber&sql_params=1168805
