@@ -1,9 +1,3 @@
-Promo:
-
-My name is George Williams and I'm currently the Next Search Catalog coordinator for Northeast Kansas Library System where I manage a shared Koha catalog.  Currently we have 45 public libraries, 5 school libraries, and 1 college library all using the same shared Koha catalog.  And before I was in Kansas I worked for the Latah County Library District in Moscow, Idaho, where we had 49 libraries using a shared Koha catalog.  I've been using Koha at one library or another now for about 7 years and I look forward to speaking to all of you at Pakistan KohaCon2019 this weekend.
-
------
-
 Hello everyone.  My name is George Williams and I'm the Next Search Catalog coordinator for Northeast Kansas Library System in Lawrence, Kansas.  We currently have 51 libraries all working out of a shared Koha - we have about 400,000 bibliographic records, 1,000,000 items and about 100,000 patrons.   Our headquarters is in Lawrence but our libraries using the shared catalog are scattered around the area and they vary in size from small (about 4,000 items) to medium sized (about 80,000 items).  We've been operating this shared catalog on Koha since 2008 - about 11 years.  But I've only been here for about 3 years now.
 
 In addition to working for NEKLS, I'm also currently the President of koha-US and the reason I was asked today to talk today was to talk a bit about koha-US and who we are and what we're doing and how we got to where we are and what we're hoping to do in the future.
