@@ -1,10 +1,23 @@
-Hello everyone.  My name is George Williams and I'm the Next Search Catalog coordinator for Northeast Kansas Library System in Lawrence, Kansas.  We currently have 51 libraries all working out of a shared Koha - we have about 400,000 bibliographic records, 1,000,000 items and about 100,000 patrons.   Our headquarters is in Lawrence but our libraries using the shared catalog are scattered around the area and they vary in size from small (about 4,000 items) to medium sized (about 80,000 items).  We've been operating this shared catalog on Koha since 2008 - about 11 years.  But I've only been here for about 3 years now.
+Hello everyone.
 
-In addition to working for NEKLS, I'm also currently the President of koha-US and the reason I was asked today to talk today was to talk a bit about koha-US and who we are and what we're doing and how we got to where we are and what we're hoping to do in the future.
+My name is George Williams and I'm the Next Search Catalog coordinator for Northeast Kansas Library System in Lawrence, Kansas.
 
-In 2013 the international KohaCon was in Reno, Nevada.  Naturally a lot of people from the US attended and when it was over many of the people that had met there from the US talked about getting together again somewhere in the US because most of them knew that they would not have the funding to go to KohaCon2014 in Argentina.
+"Next Search Catalog" is a shared catalog we operate here in our region.
 
-So, in August of 2014 about 30-35 of us US Koha users met in Wenatchee, WA.  This conference was a loosely organized affair - it was "Unconference" style.  There was no schedule, no agenda, no speakers, just a big room with a bunch of tables and when someone wanted to get up and show people what they were working on, they just did.
+We currently have 51 libraries all working out of a shared Koha - we have almost 100,000 patrons, just over 400,000 bibliographic records, and about 1,000,000 items.
+
+Our headquarters is in Lawrence but our libraries using the shared catalog are scattered around the area and they vary in size from small (about 4,000 items) to medium sized (about 20,000-30,000 items) and our largest library has over 80,000 items.  We've been operating this shared catalog on Koha since 2008 - about 11 years.  But I've only been here for about 3 years now.
+
+In addition to working for NEKLS, I'm also currently the 2019 President of koha-US.  Like Koha Pakistan, we're a group made up mostly of librarians using Koha and our goal is to work together here in the US to promote Koha and help libraries get the most out of Koha.  Today I was planning to talk about koha-US and how we began and what we're doing now and what we're hoping to do in the future.
+
+Way back in the past:
+
+In 2013 the international KohaCon was in Reno, Nevada.  Naturally, since the conference was in the US, a lot of people from the US went.  For many of those people it was the first time they'd met other librarians that were using Koha and when it was over many of those people talked about getting together again somewhere in the US.  Since KohaCon is usually on a different continent each year, most of the people that attended KohaCon13 knew that they were probably not going to be able to afford to go to KohaCon14, which I think ended up being in Argentina, so having a meeting in the US was probably the only way we were going to be able to meet again.
+
+So, in August of 2014 about 30 Koha users met in Wenatchee, WA.  This conference was a loosely organized affair - it was "Unconference" style.  There was no schedule, no agenda, no speakers, just a big room with a bunch of tables and when someone wanted to get up and show people what they were working on, they just did.
+
+https://staff.nextkansas.org/cgi-bin/koha/catalogue/search.pl?q=se:Harry%20Potter
+
 
 Some of the things that came out of that conference were the "Show local copy" jQuery (https://wiki.koha-community.org/wiki/JQuery_Library#Show_Local_Copy_Status_in_Staff_Search_Results.2C_Hide_all_others_.28Variation.29) and the "Holds queue work-around" (https://wiki.koha-community.org/wiki/SQL_Reports_Holds#Holds_Queue_Work-Around_for_Bug_18001) which were worked on by people who began collaborating through meeting at that conference.
 
@@ -14,7 +27,9 @@ Anyway, in 2015 we had a conference in Eerie, PA, which had about 40-45 attendee
 
 And the conferences have become more complex.  The first conference didn't really have an agenda or a schedule but by the time we got to Coeur d'Alene we had enough people who wanted to do presentations and we had enough interest from people who were new to Koha that we had two rooms running.  In one room there were presentations and sessions for people who were new to Koha and in the other room we had presentations on more advanced topics.
 
-The annual conferences have been great.  It's great to get together with everyone and talk and share ideas and all that and we work together on thing and learn from each other and all that.  The bulk of our meetings, though, have been online.  We use Zoom to have monthly meetings.  We meet on the second Wednesday of every month usually at 15:30 UTC in the summer or 16:30 UTC in the winter.  And we keep a schedule on our website at http://koha-us.org/ - you can actually get to the calendar through the widget on the bottom of the page - and anyone is welcome to attend.  We also archive those meetings on Youtube.  So if you wanted to sit down and watch a koha-US meeting, you can do that at:  https://www.youtube.com/channel/UCzbnGngRlVVUlw_I5AjIxaw  you can actually watch meetings all the way back to July of 2015.
+More than just conferences - what we are doing now:
+
+The annual conferences have been great.  It's great to get together with everyone and talk and share ideas and all that and we work together on thing and learn from each other and all that.  The bulk of our meetings, though, have been online.  We use Zoom to have monthly meetings.  We meet on the second Wednesday of every month usually at 15:30 UTC in the summer or 16:30 UTC in the winter.  You can find our schedule on our website.  We also archive those meetings on Youtube.  So if you wanted to sit down and watch a koha-US meeting, you can do that at:  https://www.youtube.com/channel/UCzbnGngRlVVUlw_I5AjIxaw  you can actually watch meetings all the way back to July of 2015.
 
 Another thing we try to do is mentoring.  Whenever we have new people that attend our meetings, if they say they want someone to help mentor them and help them learn more about Koha, we maintain a list of people that are willing to be mentors so we can try to connect people who are new to Koha to someone they can call up and ask for help.
 
