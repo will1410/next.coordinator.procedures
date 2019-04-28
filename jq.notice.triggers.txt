@@ -1,0 +1,33 @@
+//BEGIN
+ $('#tools_overduerules .help').prepend("<button id='7button' type='button' style='margin: 5px'>#Seven</button><button id='10button' type='button' style='margin: 5px'>Ten</button><button id='35button' type='button' style='margin: 5px'>Thirtyfive</button><button id='45button' type='button' style='margin: 5px'>Fortyfive</button>,<button id='clrbutton' type='button' style='margin: 5px'>Clear</button>");
+ $("#7button").click( function() {
+  $('#tools_overduerules #first td:nth-child(2) input').val('7');
+  $('#first table tbody tr td:nth-child(5) input').attr('checked','checked');
+  $("#first td:nth-child(3) select option[value=ODUE1]").attr("selected","selected");
+  $("#first tr:nth-child(5) td:nth-child(3) select option[value=ODUE1_SPEC], #first tr:nth-child(22) td:nth-child(3) select option[value=ODUE1_SPEC], #first tr:nth-child(38) td:nth-child(3) select option[value=ODUE1_SPEC], #first tr:nth-child(40) td:nth-child(3) select option[value=ODUE1_SPEC], #first tr:nth-child(41) td:nth-child(3) select option[value=ODUE1_SPEC]").attr("selected","selected");
+ $("#first tr:nth-child(21) td:nth-child(3) select option[value=ODUE1_ILL]").attr("selected","selected");
+ });
+ $("#10button").click( function() {
+  $('#tools_overduerules #first td:nth-child(2) input').val('10');
+  $('#first table tbody tr td:nth-child(5) input').attr('checked','checked');
+  $("#first td:nth-child(3) select option[value=ODUE1]").attr("selected","selected");
+  $("#first tr:nth-child(5) td:nth-child(3) select option[value=ODUE1_SPEC], #first tr:nth-child(22) td:nth-child(3) select option[value=ODUE1_SPEC], #first tr:nth-child(38) td:nth-child(3) select option[value=ODUE1_SPEC], #first tr:nth-child(40) td:nth-child(3) select option[value=ODUE1_SPEC], #first tr:nth-child(41) td:nth-child(3) select option[value=ODUE1_SPEC]").attr("selected","selected");
+ $("#first tr:nth-child(21) td:nth-child(3) select option[value=ODUE1_ILL]").attr("selected","selected");
+ });
+ $("#35button").click( function() {
+  $('#tools_overduerules #second td:nth-child(2) input').val('35');
+  $('#second table tbody tr td:nth-child(4) input, #second table tbody tr td:nth-child(5) input').attr('checked','checked');
+  $("#second td:nth-child(3) select option[value=ODUE2]").attr("selected","selected");
+  $("#second tr:nth-child(5) td:nth-child(3) select option[value=ODUE2_SPEC], #second tr:nth-child(22) td:nth-child(3) select option[value=ODUE2_SPEC], #second tr:nth-child(38) td:nth-child(3) select option[value=ODUE2_SPEC], #second tr:nth-child(40) td:nth-child(3) select option[value=ODUE2_SPEC], #second tr:nth-child(41) td:nth-child(3) select option[value=ODUE2_SPEC]").attr("selected","selected");
+  $("#second tr:nth-child(21) td:nth-child(3) select option[value=ODUE2_ILL]").attr("selected","selected");
+ });
+ $("#45button").click( function() {
+  $('#tools_overduerules #third td:nth-child(2) input').val('45');
+  $('#third table tbody tr td:nth-child(4) input, #third table tbody tr td:nth-child(5) input').attr('checked','checked');
+  $("#third td:nth-child(3) select option[value=ODUE3]").attr("selected","selected");
+  $("#third tr:nth-child(5) td:nth-child(3) select option[value=ODUE3_SPEC], #third tr:nth-child(22) td:nth-child(3) select option[value=ODUE3_SPEC], #third tr:nth-child(38) td:nth-child(3) select option[value=ODUE3_SPEC], #third tr:nth-child(40) td:nth-child(3) select option[value=ODUE3_SPEC], #third tr:nth-child(41) td:nth-child(3) select option[value=ODUE3_SPEC]").attr("selected","selected");
+  $("#third tr:nth-child(21) td:nth-child(3) select option[value=ODUE3_ILL]").attr("selected","selected");
+ });
+ $("#clrbutton").click( function() {
+   $('tr:nth-child(5) > td:nth-child(4) > input, tr:nth-child(21) > td:nth-child(4) > input, tr:nth-child(22) > td:nth-child(4) > input, tr:nth-child(38) > td:nth-child(4) > input, tr:nth-child(40) > td:nth-child(4) > input, tr:nth-child(41) > td:nth-child(4) > input').prop('checked', false);
+ });
