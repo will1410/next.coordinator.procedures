@@ -1,222 +1,222 @@
 [% branch.branchcode %]
-<<branches.branchname>>
-<<branches.branchaddress1>>
-<<branches.branchaddress2>>
-<<branches.branchaddress3>>
-<<branches.branchzip>>
-<<branches.branchcity>>
-<<branches.branchstate>>
-<<branches.branchcountry>>
-<<branches.branchphone>>
-<<branches.branchfax>>
-<<branches.branchemail>>
-<<branches.branchreplyto>>
-<<branches.branchreturnpath>>
-<<branches.branchurl>>
-<<branches.issuing>>
-<<branches.branchip>>
-<<branches.branchprinter>>
-<<branches.branchnotes>>
-<<branches.opac_info>>
+[% branch.branchname %]
+[% branch.branchaddress1 %]
+[% branch.branchaddress2 %]
+[% branch.branchaddress3 %]
+[% branch.branchzip %]
+[% branch.branchcity %]
+[% branch.branchstate %]
+[% branch.branchcountry %]
+[% branch.branchphone %]
+[% branch.branchfax %]
+[% branch.branchemail %]
+[% branch.branchreplyto %]
+[% branch.branchreturnpath %]
+[% branch.branchurl %]
+[% branch.issuing %]
+[% branch.branchip %]
+[% branch.branchprinter %]
+[% branch.branchnotes %]
+[% branch.opac_info %]
 [% branch.geolocation %]
-<<branches.marcorgcode>>
-<<branches.pickup_location>>
+[% branch.marcorgcode %]
+[% branch.pickup_location %]
 
-<<biblio.biblionumber>>
-<<biblio.frameworkcode>>
-<<biblio.author>>
-<<biblio.title>>
-<<biblio.unititle>>
-<<biblio.notes>>
-<<biblio.serial>>
-<<biblio.seriestitle>>
-<<biblio.copyrightdate>>
-<<biblio.datecreated>>
-<<biblio.abstract>>
-<<biblioitems.biblioitemnumber>>
-<<biblioitems.biblionumber>>
-<<biblioitems.volume>>
-<<biblioitems.number>>
-<<biblioitems.itemtype>>
-<<biblioitems.isbn>>
-<<biblioitems.issn>>
-<<biblioitems.ean>>
-<<biblioitems.publicationyear>>
-<<biblioitems.publishercode>>
-<<biblioitems.volumedate>>
-<<biblioitems.volumedesc>>
-<<biblioitems.collectiontitle>>
-<<biblioitems.collectionissn>>
-<<biblioitems.collectionvolume>>
-<<biblioitems.editionstatement>>
-<<biblioitems.editionresponsibility>>
-<<biblioitems.illus>>
-<<biblioitems.pages>>
-<<biblioitems.notes>>
-<<biblioitems.size>>
-<<biblioitems.place>>
-<<biblioitems.lccn>>
-<<biblioitems.url>>
-<<biblioitems.cn_source>>
-<<biblioitems.cn_class>>
-<<biblioitems.cn_item>>
-<<biblioitems.cn_suffix>>
-<<biblioitems.cn_sort>>
-<<biblioitems.agerestriction>>
-<<biblioitems.totalissues>>
+[% biblio.biblionumber %]
+[% biblio.frameworkcode %]
+[% biblio.author %]
+[% biblio.title %]
+[% biblio.unititle %]
+[% biblio.notes %]
+[% biblio.serial %]
+[% biblio.seriestitle %]
+[% biblio.copyrightdate %]
+[% biblio.datecreated %]
+[% biblio.abstract %]
+[% biblioitems.biblioitemnumber %]
+[% biblioitems.biblionumber %]
+[% biblioitems.volume %]
+[% biblioitems.number %]
+[% biblioitems.itemtype %]
+[% biblioitems.isbn %]
+[% biblioitems.issn %]
+[% biblioitems.ean %]
+[% biblioitems.publicationyear %]
+[% biblioitems.publishercode %]
+[% biblioitems.volumedate %]
+[% biblioitems.volumedesc %]
+[% biblioitems.collectiontitle %]
+[% biblioitems.collectionissn %]
+[% biblioitems.collectionvolume %]
+[% biblioitems.editionstatement %]
+[% biblioitems.editionresponsibility %]
+[% biblioitems.illus %]
+[% biblioitems.pages %]
+[% biblioitems.notes %]
+[% biblioitems.size %]
+[% biblioitems.place %]
+[% biblioitems.lccn %]
+[% biblioitems.url %]
+[% biblioitems.cn_source %]
+[% biblioitems.cn_class %]
+[% biblioitems.cn_item %]
+[% biblioitems.cn_suffix %]
+[% biblioitems.cn_sort %]
+[% biblioitems.agerestriction %]
+[% biblioitems.totalissues %]
 
-<<items.itemnumber>>
-<<items.biblionumber>>
-<<items.biblioitemnumber>>
-<<items.barcode>>
-<<items.dateaccessioned>>
-<<items.booksellerid>>
-<<items.homebranch>>
-<<items.price>>
-<<items.replacementprice>>
-<<items.replacementpricedate>>
-<<items.datelastborrowed>>
-<<items.datelastseen>>
-<<items.stack>>
-<<items.notforloan>>
-<<items.damaged>>
-<<items.damaged_on>>
-<<items.itemlost>>
-<<items.itemlost_on>>
-<<items.withdrawn>>
-<<items.withdrawn_on>>
-<<items.itemcallnumber>>
-<<items.coded_location_qualifier>>
-<<items.issues>>
-<<items.renewals>>
-<<items.reserves>>
-<<items.restricted>>
-<<items.itemnotes>>
-<<items.itemnotes_nonpublic>>
-<<items.holdingbranch>>
-<<items.paidfor>>
-<<items.location>>
-<<items.permanent_location>>
-<<items.onloan>>
-<<items.cn_source>>
-<<items.cn_sort>>
-<<items.ccode>>
-<<items.materials>>
-<<items.uri>>
-<<items.itype>>
+[% item.itemnumber %]
+[% item.biblionumber %]
+[% item.biblioitemnumber %]
+[% item.barcode %]
+[% item.dateaccessioned | $KohaDates %]
+[% item.booksellerid %]
+[% item.homebranch %]
+[% item.price %]
+[% item.replacementprice %]
+[% item.replacementpricedate %]
+[% item.datelastborrowed | $KohaDates %]
+[% item.datelastseen | $KohaDates %]
+[% item.stack %]
+[% item.notforloan %]
+[% item.damaged %]
+[% item.damaged_on %]
+[% item.itemlost %]
+[% item.itemlost_on | $KohaDates with_hours => 1 %]
+[% item.withdrawn %]
+[% item.withdrawn_on | $KohaDates with_hours => 1 %]
+[% item.itemcallnumber %]
+[% item.coded_location_qualifier %]
+[% item.issues %]
+[% item.renewals %]
+[% item.reserves %]
+[% item.restricted %]
+[% item.itemnotes %]
+[% item.itemnotes_nonpublic %]
+[% item.holdingbranch %]
+[% item.paidfor %]
+[% item.location %]
+[% item.permanent_location %]
+[% item.onloan | $KohaDates %]
+[% item.cn_source %]
+[% item.cn_sort %]
+[% item.ccode %]
+[% item.materials %]
+[% item.uri %]
+[% item.itype %]
 
-<<items.more_subfields_xml>>
-<<items.enumchron>>
-<<items.copynumber>>
-<<items.stocknumber>>
-<<items.new_status>>
+[% item.more_subfields_xml %]
+[% item.enumchron %]
+[% item.copynumber %]
+[% item.stocknumber %]
+[% item.new_status %]
 
 <<items.content>>
 <<items.fine>>
 
-<<borrowers.borrowernumber>>
-<<borrowers.cardnumber>>
-<<borrowers.surname>>
-<<borrowers.firstname>>
-<<borrowers.title>>
-<<borrowers.othernames>>
-<<borrowers.initials>>
-<<borrowers.streetnumber>>
-<<borrowers.streettype>>
-<<borrowers.address>>
-<<borrowers.address2>>
-<<borrowers.city>>
-<<borrowers.state>>
-<<borrowers.zipcode>>
-<<borrowers.country>>
-<<borrowers.email>>
-<<borrowers.phone>>
-<<borrowers.mobile>>
-<<borrowers.fax>>
-<<borrowers.emailpro>>
-<<borrowers.phonepro>>
-<<borrowers.B_streetnumber>>
-<<borrowers.B_streettype>>
-<<borrowers.B_address>>
-<<borrowers.B_address2>>
-<<borrowers.B_city>>
-<<borrowers.B_state>>
-<<borrowers.B_zipcode>>
-<<borrowers.B_country>>
-<<borrowers.B_email>>
-<<borrowers.B_phone>>
-<<borrowers.dateofbirth>>
-<<borrowers.branchcode>>
-<<borrowers.categorycode>>
-<<borrowers.dateenrolled>>
-<<borrowers.dateexpiry>>
-<<borrowers.date_renewed>>
-<<borrowers.gonenoaddress>>
-<<borrowers.lost>>
-<<borrowers.debarred>>
-<<borrowers.debarredcomment>>
-<<borrowers.contactname>>
-<<borrowers.contactfirstname>>
-<<borrowers.contacttitle>>
-<<borrowers.guarantorid>>
-<<borrowers.borrowernotes>>
-<<borrowers.relationship>>
-<<borrowers.ethnicity>>
-<<borrowers.ethnotes>>
-<<borrowers.sex>>
-<<borrowers.password>>
-<<borrowers.flags>>
-<<borrowers.userid>>
-<<borrowers.opacnote>>
-<<borrowers.contactnote>>
-<<borrowers.sort1>>
-<<borrowers.sort2>>
-<<borrowers.altcontactfirstname>>
-<<borrowers.altcontactsurname>>
-<<borrowers.altcontactaddress1>>
-<<borrowers.altcontactaddress2>>
-<<borrowers.altcontactaddress3>>
-<<borrowers.altcontactstate>>
-<<borrowers.altcontactzipcode>>
-<<borrowers.altcontactcountry>>
-<<borrowers.altcontactphone>>
-<<borrowers.smsalertnumber>>
-<<borrowers.sms_provider_id>>
-<<borrowers.privacy>>
-<<borrowers.privacy_guarantor_checkouts>>
-<<borrowers.checkprevcheckout>>
-<<borrowers.updated_on>>
-<<borrowers.lastseen>>
-<<borrowers.lang>>
-<<borrowers.login_attempts>>
-<<borrowers.overdrive_auth_token>>
+[% borrower.borrowernumber %]
+[% borrower.cardnumber %]
+[% borrower.surname %]
+[% borrower.firstname %]
+[% borrower.title %]
+[% borrower.othernames %]
+[% borrower.initials %]
+[% borrower.streetnumber %]
+[% borrower.streettype %]
+[% borrower.address %]
+[% borrower.address2 %]
+[% borrower.city %]
+[% borrower.state %]
+[% borrower.zipcode %]
+[% borrower.country %]
+[% borrower.email %]
+[% borrower.phone %]
+[% borrower.mobile %]
+[% borrower.fax %]
+[% borrower.emailpro %]
+[% borrower.phonepro %]
+[% borrower.B_streetnumber %]
+[% borrower.B_streettype %]
+[% borrower.B_address %]
+[% borrower.B_address2 %]
+[% borrower.B_city %]
+[% borrower.B_state %]
+[% borrower.B_zipcode %]
+[% borrower.B_country %]
+[% borrower.B_email %]
+[% borrower.B_phone %]
+[% borrower.dateofbirth | $KohaDates %]
+[% borrower.branchcode %]
+[% borrower.categorycode %]
+[% borrower.dateenrolled | $KohaDates %]
+[% borrower.dateexpiry | $KohaDates %]
+[% borrower.date_renewed %]
+[% borrower.gonenoaddress %]
+[% borrower.lost %]
+[% borrower.debarred | $KohaDates %]
+[% borrower.debarredcomment %]
+[% borrower.contactname %]
+[% borrower.contactfirstname %]
+[% borrower.contacttitle %]
+[% borrower.guarantorid %]
+[% borrower.borrowernotes %]
+[% borrower.relationship %]
+[% borrower.ethnicity %]
+[% borrower.ethnotes %]
+[% borrower.sex %]
+[% borrower.password %]
+[% borrower.flags %]
+[% borrower.userid %]
+[% borrower.opacnote %]
+[% borrower.contactnote %]
+[% borrower.sort1 %]
+[% borrower.sort2 %]
+[% borrower.altcontactfirstname %]
+[% borrower.altcontactsurname %]
+[% borrower.altcontactaddress1 %]
+[% borrower.altcontactaddress2 %]
+[% borrower.altcontactaddress3 %]
+[% borrower.altcontactstate %]
+[% borrower.altcontactzipcode %]
+[% borrower.altcontactcountry %]
+[% borrower.altcontactphone %]
+[% borrower.smsalertnumber %]
+[% borrower.sms_provider_id %]
+[% borrower.privacy %]
+[% borrower.privacy_guarantor_checkouts %]
+[% borrower.checkprevcheckout %]
+[% borrower.updated_on %]
+[% borrower.lastseen %]
+[% borrower.lang %]
+[% borrower.login_attempts %]
+[% borrower.overdrive_auth_token %]
 
 <<borrower-attribute:DL>>
 <<borrower-attribute:FAVCOLOR>>
 <<borrower-attribute:PC>>
 <<borrower-attribute:PREVID>>
 
-<<opac_news.idnew>>
-<<opac_news.branchcode>>
-<<opac_news.title>>
-<<opac_news.content>>
-<<opac_news.lang>>
-<<opac_news.expirationdate>>
-<<opac_news.number>>
-<<opac_news.borrowernumber>>
+[% news.idnew %]
+[% news.branchcode %]
+[% news.title %]
+[% news.content %]
+[% news.lang %]
+[% news.expirationdate %]
+[% news.number %]
+[% news.borrowernumber %]
 
-<<issues.issue_id>>
-<<issues.borrowernumber>>
-<<issues.itemnumber>>
-<<issues.date_due>>
-<<issues.branchcode>>
-<<issues.returndate>>
-<<issues.lastreneweddate>>
-<<issues.renewals>>
-<<issues.auto_renew>>
-<<issues.auto_renew_error>>
-<<issues.issuedate>>
-<<issues.onsite_checkout>>
-<<issues.note>>
-<<issues.notedate>>
-<<issues.noteseen>>
+[% checkout.issue_id %]
+[% checkout.borrowernumber %]
+[% checkout.itemnumber %]
+[% checkout.date_due | $KohaDates with_hours => 1 %]
+[% checkout.branchcode %]
+[% checkout.returndate | $KohaDates with_hours => 1 %]
+[% checkout.lastreneweddate | $KohaDates with_hours => 1 %]
+[% checkout.renewals %]
+[% checkout.auto_renew %]
+[% checkout.auto_renew_error %]
+[% checkout.issuedate | $KohaDates with_hours => 1 %]
+[% checkout.onsite_checkout %]
+[% checkout.note %]
+[% checkout.notedate %]
+[% checkout.noteseen %]
