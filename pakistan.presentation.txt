@@ -16,7 +16,8 @@ In 2013 the international KohaCon was in Reno, Nevada.  Naturally, since the con
 
 So, in August of 2014 about 30 Koha users met in Wenatchee, WA.  This conference was a loosely organized affair - it was "Unconference" style.  There was no schedule, no agenda, no speakers, just a big room with a bunch of tables and when someone wanted to get up and show people what they were working on, they just did.
 
-https://staff.nextkansas.org/cgi-bin/koha/catalogue/search.pl?q=se:Harry%20Potter
+
+
 
 
 Some of the things that came out of that conference were the "Show local copy" jQuery (https://wiki.koha-community.org/wiki/JQuery_Library#Show_Local_Copy_Status_in_Staff_Search_Results.2C_Hide_all_others_.28Variation.29) and the "Holds queue work-around" (https://wiki.koha-community.org/wiki/SQL_Reports_Holds#Holds_Queue_Work-Around_for_Bug_18001) which were worked on by people who began collaborating through meeting at that conference.
