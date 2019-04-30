@@ -2,6 +2,7 @@ o.debit toolkit data
 
 The following come from accountlines.
 
+[%- FOREACH o IN offsets %]
 accountlines_id: [% o.debit.accountlines_id %]
 issue_id: [% o.debit.issue_id %]
 borrowernumber: [% o.debit.borrowernumber %]
@@ -17,3 +18,4 @@ timestamp: [% o.debit.timestamp %]
 lastincrement: [% o.debit.lastincrement | $Price %]
 note: [% o.debit.note %]
 manager_id: [% o.debit.manager_id %]
+[% END %]
