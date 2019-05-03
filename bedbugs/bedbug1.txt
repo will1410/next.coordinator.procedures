@@ -1,17 +1,17 @@
-. We recommend that every library develop a "Bedbug Policy" as well as a set of written procedures for how to handle a bedbug problem as well as procedures for .
+To be discussed at the 5/14/2019 Next Users Group Meeting:
 
-The policy should address identifying signs of bedbug infestation; handling of infestation in the library; handling infested materials; dealing with the source of contaminated materials (patrons or other libraries).
+1. We recommend that every library develop a "Bedbug policy" as well as a set of written procedures for how to handle a potential bedbug infestation (I will write a generic/sample bedbug policy before the meeting).
 
-. We recommend that every library train their staff on identifying signs of bedbug infestation in their library; in items that are returned; and in items they receive from the courier.
+The policy should address identifying signs of bedbug infestation; handling of infestation in the library; handling infested materials; dealing with the source of contaminated materials (patrons or other libraries); and training staff on implementing the bedbug policies.
 
-. Materials that are visibly damaged should be discarded.
+2. We recommend that libraries only suspend a patron's borrowing privileges if the library is able to clearly determine that the infestation originated at the patron's address.  We also recommend that any policy that can lead to the suspension of a patron's borrowing privileges clearly state how the patron can have the suspension lifted as well as a process for appealing the suspension.
 
-. We recommend that libraries only suspend a patron's borrowing privileges in cases where it is clear that the bedbug infestation originated at the patron's address.  Any policy that can lead to a patron's borrowing privileges being suspended should clearly state how the patron can have the suspension lifted and should include a process for appeal.
+3.  We recommend that policies discourage patrons from treating infested materials themselves.
 
-. We recommend that policies discourage patrons from treating infested materials themselves.
+4. The courier policy committee is going to be working on bedbug policies for shipping items via the courier.
 
-. NEKLS is looking into working with Bughound to subsidize their services for member libraries.
+5. We recommend that materials that show signs of bedbug infestation be discarded if the signs of infestation are severe (see slides 12-17 on "Don't let the bedbugs bite" pdf).  If the infestation is not severe, we recommend treating the materials with the ZappBug equipment.
 
+6. NEKLS has purchased a ZappBug Heater (I'll take the device and do a demo at the meeting in Hiawatha).  It will be available for pickup and drop-off directly at the NEKLS office.  It should not be shipped via the courier.
 
-
-. NEKLS has purchased a ZapBug Heater that can be loaned to member libraries to treat materials that have been infested and are in good enough condition to stay in circulation.  The device and all of its parts will be cataloged and checked out to the library director when borrowed.
+7. NEKLS is looking into establishing a discounted or subsidized rate with Bug Hounds
