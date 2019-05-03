@@ -1,13 +1,17 @@
-. We recommend that every library develop a "Bedbug Policy" as well as a set of written procedures for how to handle a bedbug problem.
+. We recommend that every library develop a "Bedbug Policy" as well as a set of written procedures for how to handle a bedbug problem as well as procedures for .
 
 The policy should address identifying signs of bedbug infestation; handling of infestation in the library; handling infested materials; dealing with the source of contaminated materials (patrons or other libraries).
 
 . We recommend that every library train their staff on identifying signs of bedbug infestation in their library; in items that are returned; and in items they receive from the courier.
-
-. NEKLS is buying a ZapBug Heater that can be loaned to member libraries to treat materials that have been infested and are in good enough condition to stay in circulation.
 
 . Materials that are visibly damaged should be discarded.
 
 . We recommend that libraries only suspend a patron's borrowing privileges in cases where it is clear that the bedbug infestation originated at the patron's address.  Any policy that can lead to a patron's borrowing privileges being suspended should clearly state how the patron can have the suspension lifted and should include a process for appeal.
 
 . We recommend that policies discourage patrons from treating infested materials themselves.
+
+. NEKLS is looking into working with Bughound to subsidize their services for member libraries.
+
+
+
+. NEKLS has purchased a ZapBug Heater that can be loaned to member libraries to treat materials that have been infested and are in good enough condition to stay in circulation.  The device and all of its parts will be cataloged and checked out to the library director when borrowed.
