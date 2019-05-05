@@ -557,6 +557,10 @@ jQuery.fn.exists = function(){ return this.length > 0; }
     $(this).parent().parent().children(".contentsToggle").toggle("slow");
    });
 
+   -----------------------------------------------
+
+
+
   //Patron identity
    //BEGIN rename fields "Surname" to "Last Name," "First Name" to "First/Middle Name," "Other Names" to "Nickname/Other name"
     $("#memberentry_identity label[for='surname']").html("Last name:");
@@ -603,7 +607,7 @@ jQuery.fn.exists = function(){ return this.length > 0; }
   //Library Management
    //BEGIN Hide Louisburg and Digital from patron dropdown (Library management)
     $("#pat_memberentrygen option[value='branch:LOUISBURG'], #pat_memberentrygen option[value='LOUISBURG']").hide();
-    //$("#pat_memberentrygen option[value='branch:DIGITAL'], #pat_memberentrygen option[value='DIGITAL']").hide();
+    $("#pat_memberentrygen option[value='branch:DIGITAL'], #pat_memberentrygen option[value='DIGITAL']").hide();
 
    //BEGIN Move "Location" and "Permission" attributes into the Library management box
     $("#aai_Location").insertBefore($("#memberentry_library_management label[for='sort1']").parent('li'));
@@ -720,6 +724,8 @@ jQuery.fn.exists = function(){ return this.length > 0; }
     });
 
    //BEGIN Move SMS stuff above the table so that the first fields that need to be filled out are the first ones that staff see
+
+// possible switch  - $('th:contains("Days in advance")').parents().eq(2).attr('id','messagetable');
     $("#memberentry_messaging_prefs > div:nth-child(7) > table").wrap('<div id="messagetable"></div>');
     $("#memberentry_messaging_prefs label:contains('SMS number:')").parent().wrap('<div id="smsnumbermove"></div>');
     $("#memberentry_messaging_prefs label:contains('SMS provider:')").parent().wrap('<div id="smsprovidermove"></div>');
@@ -731,6 +737,8 @@ jQuery.fn.exists = function(){ return this.length > 0; }
      var text = $(this).text();
      $(this).text(text.replace('SMS', 'Text message'));
     });
+
+--------------------------------------------------------------------------------
 
    //BEGIN add links to carrier lookup sites
     $("#smsnumbermove").append("<div><p style='font-weight: bold; text-decoration: underline; color: red;'><br />'Advanced Notices' and 'Item Due' notices (e-mail and text) are sent between 2:00 and 2:30 a.m.<br />Patrons should set the 'Do Not Disturb' settings on their phone appropriately if they do not want their phones to alert them to these notices at that time of day.<br />Instructions for setting the do-not-disturb feature on most phones can be found at<br /><a href='https://www.imore.com/how-to-setup-use-do-not-disturb-iphone-ipad' target='_blank'>Set do-not-disturb for iPhone</a> | <a href='https://www.howtogeek.com/260225/androids-confusing-do-not-disturb-settings-explained/' target='_blank'>Set do-not-disturb for Android phones</a><br /><br />Charges for text messages may be incurred when using this service.<br/>Please have the patron check with their mobile service provider if they have questions about fees for text messages.</p><p style='font-weight: bold; text-decoration: underline;'><br /><a href='http://freecarrierlookup.com/' target='_blank'>Free Carrier Lookup - Click here to lookup a mobile phone provider (limited to 30 searches per month)</a><br /><a href='https://www.carrierlookup.com/' target='_blank'>Carrier Lookup - Click here to lookup a mobile phone provider</a><br /><a href='https://realphonevalidation.com/resources/phone-carrier-lookup/' target='_blank'>Phone Carrier Lookup - Click here to lookup a mobile phone provider</a><br /><a href='http://www.fonefinder.net/' target='_blank'>Fone finder - Click here to lookup a mobile phone provider</a><br /></p></div>").parent();
