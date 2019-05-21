@@ -1,0 +1,8 @@
+
+//BEGIN - puts up an alert when hovering over ADD buttons
+ $("#cat_additem .action").hover(function(){
+   $(this).hide();
+   alert("You can only add a LOCAL HOLD MOVIE or WALKIN MOVIE if at least 50% of your previously entered copies on this bibliographic record are MOVIE");
+   }, function(){
+   $(this).show();
+ });
