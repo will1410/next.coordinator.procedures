@@ -1,0 +1,3 @@
+Regex find periods at end of string
+
+\.([^.]*)$
