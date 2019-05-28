@@ -4,17 +4,30 @@ email: gwilliams@nekls.org
 
 Employer / Position: Northeast Kansas Library Sytem / Next Search Catalog Coordinator
 
-Subject of your talk: Koha open source Integrated Library Management System and community
+Subject of your talk: Koha open source Integrated Library System, its history, its community, and its role in Kansas libraries.
 
 Description of your talk: A description of the Koha open source project, its community, and the adoption of open source in libraries.
 
-Personal Biography: I'm the Next Search Catalog Coordinator for Northeast Kansas Library System with experience in libraries, teaching, research, and bus driving.
+Personal Biography: I'm the Next Search Catalog Coordinator for Northeast Kansas Library System with experience in libraries, teaching, and research.  I am also the current president of koha-US, the Koha users group in the USA.
 
 In the event that your talk is selected: Do you have any contact information (website, email, social media) that you would like us to link to on our website alongside your Bio and talk name/description?: nextkansas.org; koha-us.org; gwilliams@nekls.org; @gwilliams67 on twitter
 
 
+George Williams - Next Search Catalog Coordinator - Northeast Kansas Library System
+  About 18 years in libraries - my journey into libraries was kind of weird - college drop-out; became a bus driver; went back to college and started working at Boise Public Library 10 hours per week when their 
+
 What is Koha
+
+  Koha is actually a Maori word for "gift"
+
+  Open source ILS/ILMS - (need to define ILS/ILMS)
+    Developed in late 1999 in New Zealand for the Horowhenua Library Trust
+    Developed to replace a proprietary ILS that has a known Y2K bug
+    Decision made early on to produce Koha as open source project
+
 
 What is the community like
 
 Open source in the library world
+
+Koha in nextkansas
