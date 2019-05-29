@@ -1,5 +1,0 @@
-Patrons - Landing page
-Patrons - Right header
-Patrons - Left header
-Patrons - Input box
-Patrons - Breadcrumbs

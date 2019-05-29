@@ -1,7 +1,0 @@
-/*$(".logged-in-branch-code:contains('LOUISBURG')").attr('lburg','yes');
-if($(".logged-in-branch-code").attr('lburg')) {
-
-  $('#pat_memberentrygen select[name="branchcode"], #pat_memberentrygen select[name="categorycode"]').attr('disabled','disabled');
-  $('a:contains("Set library")').hide();
-
-};*/
