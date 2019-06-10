@@ -1,0 +1,50 @@
+SQL bits and pieces
+
+<p></p>
+<p><span style="background-color:darkred; color:white;">Scheduled to be deleted on March 31, 2019</span></p>
+<p></p>
+
+jQ
+
+//Good for updating a bunch of ccodes or other authorised values
+$("#admin_authorised_values #branches option").attr("selected","selected");
+$("#admin_authorised_values #branches option[value='DIGITAL'], #admin_authorised_values #branches option[value='']").removeAttr("selected");
+
+
+jQ
+
+//Administration > Transport cost matrix
+//Click left row header to open all input cells in a row on transportation cost matrix - Replace XXX with first 5 letters of branchcode
+$("[data-cost-id^='XXX']").parent().parent().parent().click(function() {
+    $("[data-cost-id^='XXX']").click();
+});
+
+//Administration > Transport cost matrix
+//Click left row header to open all input cells in the correspondingly named column on transportation cost matrix - Replace XXX with last 5 letters of branchcode
+$("[data-cost-id$='XXX']").parent().parent().parent().click(function() {
+    $("[data-cost-id$='XXX']").click();
+});
+
+jQ + CSS
+
+//Administration > Transport cost matrix
+//Add class to TH on Emporia courier hub
+//Add corresponding css to highlight those rows
+$("#transport-cost-matrix th:contains('Burli'), #transport-cost-matrix th:contains('Lyndo'), #transport-cost-matrix th:contains('Osage'), #transport-cost-matrix th:contains('Pomon'), #transport-cost-matrix th:contains('Willi')").addClass('emporiahub');
+
+/* Administration > Transport cost matrix */
+ /* Makes headers for Emporia Humb Libraries appear red */
+  .emporiahub {color: red;}
+
+//Administration > Transport cost matrix
+//Add class to TH on Emporia courier hub
+//Add corresponding css to highlight those rows
+$("#transport-cost-matrix th:contains('Atchi'), #transport-cost-matrix th:contains('Baldw'), #transport-cost-matrix th:contains('Baseh'), #transport-cost-matrix th:contains('Bonne'), #transport-cost-matrix th:contains('Donip'), #transport-cost-matrix th:contains('Eudor'), #transport-cost-matrix th:contains('Highl'), #transport-cost-matrix th:contains('Lansi'), #transport-cost-matrix th:contains('Leave'), #transport-cost-matrix th:contains('Linwo'), #transport-cost-matrix th:contains('McLou'), #transport-cost-matrix th:contains('North'), #transport-cost-matrix th:contains('Osawa'), #transport-cost-matrix th:contains('Oskal'), #transport-cost-matrix th:contains('Ottaw'), #transport-cost-matrix th:contains('Paola'), #transport-cost-matrix th:contains('Perry'), #transport-cost-matrix th:contains('Richm'), #transport-cost-matrix th:contains('Tonga'), #transport-cost-matrix th:contains('Wells')").addClass('kansascityhub');
+
+/* Administration > Transport cost matrix */
+ /* Makes headers for Kansas Humb Libraries appear red */
+  .kansascityhub {color: blue;}
+
+
+
+#transport-cost-matrix th:contains('Atchi'), #transport-cost-matrix th:contains('Baldw'), #transport-cost-matrix th:contains('Baseh'), #transport-cost-matrix th:contains('Bonne'), #transport-cost-matrix th:contains('Donip'), #transport-cost-matrix th:contains('Eudor'), #transport-cost-matrix th:contains('Highl'), #transport-cost-matrix th:contains('Lansi'), #transport-cost-matrix th:contains('Leave'), #transport-cost-matrix th:contains('Linwo'), #transport-cost-matrix th:contains('McLou'), #transport-cost-matrix th:contains('North'), #transport-cost-matrix th:contains('Osawa'), #transport-cost-matrix th:contains('Oskal'), #transport-cost-matrix th:contains('Ottaw'), #transport-cost-matrix th:contains('Paola'), #transport-cost-matrix th:contains('Perry'), #transport-cost-matrix th:contains('Richm'), #transport-cost-matrix th:contains('Tonga'), #transport-cost-matrix th:contains('Wells')

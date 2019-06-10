@@ -1,0 +1,69 @@
+//START train Koha to block local hold movies if ratio is too low
+var hbrancodex = $('#logged-in-branch-name').html().trim();
+$(".gradient").prepend(hbrancodex);
+
+$('tr').each(function(){
+   if($('td:nth-child(7):contains("Basehor Community Library")', this).length && $('td:contains("MOVIES")', this).length){       
+        $(this).addClass('movierow');
+    }
+});
+
+$('tr').each(function(){
+   if($('td:nth-child(7):contains("Basehor Community Library")', this).length && $('td:contains("LOCAL HOLD MOVIE")', this).length){       
+        $(this).addClass('localhold1row');
+    }
+});
+var countmr = $('.movierow').length;
+var countlhr = $('.localhold1row').length;
+$('.localhold1row').attr('value',countlhr);
+$('.movierow').attr('value',countmr);
+
+
+if(((parseInt($(".localhold1row").val())) > (parseInt($(".movierow").val())))){
+$("#cat_additem .gradient").prepend("<li>Ratio of LOCAL HOLD MOVIES to MOVIES is too high - LOCAL HOLD MOVIES item type is disabled</li>");
+$('#cataloguing_additem_newitem option[value="LOCALHOLD1"]').attr('disabled','disabled');
+$('#cataloguing_additem_newitem option[value="LOCALHOLD1"]').hide();
+};
+//END
+
+
+*****
+
+
+if movierow is null, then disable dropdown
+
+if movierow > 1 and localhold1row is null, then enable the drop-down
+
+
+//START train Koha to block local hold movies if ratio is too low
+var hbrancodex = $('#logged-in-branch-name').html().trim();
+$(".gradient").prepend(hbrancodex);
+
+$('tr').each(function(){
+   if($('td:nth-child(7):contains("Basehor Community Library")', this).length && $('td:contains("MOVIES")', this).length){       
+        $(this).addClass('movierow');
+    }
+});
+
+$('tr').each(function(){
+   if($('td:nth-child(7):contains("Basehor Community Library")', this).length && $('td:contains("LOCAL HOLD MOVIE")', this).length){       
+        $(this).addClass('localhold1row');
+    }
+});
+
+var countmr = $('.movierow').length;
+var countlhr = $('.localhold1row').length;
+if(countmr == 0){countmr = 25};
+if(countlhr == 0){countlhr = 50};
+$('.localhold1row').attr('value',countlhr);
+$('.movierow').attr('value',countmr);
+$(".gradient").prepend(countlhr);
+$(".gradient").prepend(countmr);
+
+
+if((countmr).val() > (countlhr).val()){
+$("#cat_additem .gradient").prepend("<li>Crazy</li>");
+};
+
+
+//END

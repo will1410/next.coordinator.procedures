@@ -1,0 +1,155 @@
+/* KOHA > Login screen */
+ /* hide upgrade notes */
+  .upgrade {text-align: center; color: #ff0000; display: none;}
+  .highlight {background-color: #ffff00;}
+
+ /* remove old logo */
+  #login > h1 {display: none;}
+
+ /* hide branch dropdown */
+  #main_auth #bd #loginform label[for*='branch'] {display: none;}
+  #main_auth #bd #login #loginform #branch {display: none;}
+
+/* KOHA > * (all pages) */
+ /* Hide My Account and My Checkouts from drop-down menu */
+  .toplinks-myaccount, .toplinks-mycheckouts {display: none;}
+
+ /* disable Firefox screenshots */
+  #firefox-screenshots-preselection-iframe {display: none;}
+
+ /* remove old logo */
+  #logo {display: none;}
+
+/* Home > Advanced search */
+ /* Advanced search - hide subtype filters */
+  #subtype {display: none;}
+
+/* Home > Administration > Circulation and fine rules */
+ /* disable rule cloning */
+  #admin_smart-rules #doc3.yui-t1 #yui-main div.yui-b:nth-child(1) > div:nth-child(3) > form:nth-child(2) {display: none;}
+
+/* Cart */
+ /* Removes the "Batch delete" link from the cart */
+  #cart_basket #bookbag_form #batch_delete {display: none;}
+
+/* Catalog > Details for TITLE */
+ /* Hides many links */
+  #batchedit,
+  #batchdelete,
+  #deleteallitems,
+  #batchedit-disabled,
+  #batchdelete-disabled,
+  #deleteallitems-disabled
+   {display: none;}
+
+/* Circulation > Checkouts */
+ /* Hide automatic renewals checkbox */
+  #circ_circulation #set-automatic-renewal {display: none;}
+
+
+.report_json_url {display: none;}
+#table_reports > thead > tr > th:nth-child(14) {display: none;}
+#table_reports > tbody > tr > td:nth-child(14) {display: none;}
+.rep .yui-t1 #bd #yui-main .yui-b td #reportinfo {font-size: inherit; font-weight: inherit; background-color: inherit;}
+.rep .yui-t1 #bd #yui-main .yui-b #reportinfo {font-size: 14px; font-weight: normal; background-color: #FFFF66;}
+
+
+#toplevelnav {
+float: left;
+margin-left: .5em;
+width: 60em;
+}
+
+#circ_circulation .ColVis.TableTools {
+display: none;
+}
+
+.results_summary {
+font-size: 100%;
+color: #000000;
+line-height: 14px;
+}
+
+.results_summary .label {
+font-weight: bold;
+color: #000;
+}
+
+.results_summary.subjects {
+font-size: 85%;
+}
+
+.results_summary.contents {
+font-size: 85%;
+}
+.results_summary.online_resources {
+font-size: 85%;
+}
+
+h5.author {
+font-size: 110% !important;
+}
+
+<-- .patronbriefinfo .patronattribute {
+font-weight: bold;
+} -->
+
+
+.dropdown-menu ul li ul{
+   max-height:250px;
+   overflow-x:hidden;
+   overflow-y:auto;
+}
+
+/* -Home- Changes background of the news area (makes it easier to read) */
+#area-news {
+    background-color: #E0ECF8;
+}
+
+/* -Administration › Circulation and fine rules- hides columns in circulation rules (requires accompanying jQuery) */
+th.hiderule, td.hiderule {
+    min-width: 15px;
+    max-width: 15px;
+    text-indent: -9999px;
+}
+
+/* -Catalog > Details for TITLE- for collapsing "Contents" area - (requires corresponding jQuery) */
+<-- (for collapsing content area) -->
+#show_content {
+    color: #004d99;
+    display: inline;
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+/* - Catalog › Search for SEARCHTERMS- Removes "No image available" placeholders in search results */
+.no-image {
+display: none;
+}
+
+/* -Circulation › Checkouts › -PATRONNAME-- hides checkin column
+#issues-table th:last-child {
+  display: none;
+}
+#issues-table tbody td:last-child {
+  display: none;
+}
+ */
+div.lastchecked {
+  background-color: lightgreen;
+}
+
+
+/* -Circulation › Checkouts › -PATRONNAME-- and all other pages with the "patroninfo" block - highlights patron attributes in yellow */
+.patronattribute {background-color: #ffff00;}
+
+
+/* Patrons */
+#pat_member div.btn-group:nth-child(2) {display: none;}
+
+/* Patrons › Pay fines for PATRONNAME */
+#table_account_fines td.actions a:nth-child(2) {display: none;}
+
+
+
+/* Custom styles here */

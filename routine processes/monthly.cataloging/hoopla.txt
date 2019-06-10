@@ -1,0 +1,95 @@
+Hoopla instructions - within 5 days of the beginning of a new month
+
+1. Run report #3098 to get the item numbers for all Hoopla e-book, e-audiobook, and music records
+
+The SQL for report #3098 is:
+
+----------
+
+SELECT
+  items.itemnumber
+FROM
+  items
+WHERE
+  items.itemcallnumber = 'Hoopla' AND
+  (items.ccode = 'DLAUDIO' OR
+    items.ccode = 'DLBOOK' OR
+    items.ccode = 'DLMUSIC')
+GROUP BY
+  items.itemnumber
+
+----------
+
+2. Use the batch deletion tool to delete all associated item and biblio records
+
+2. Go to ftp.midwesttapes.com (username and password are stored in Lastpass)
+
+3. Download the following files (MM = abbreviated name of the month):
+
+MM__Removed__List.xlsx
+
+MM_Adds_Comic.mrc
+MM_Adds_TV.mrc
+MM_Adds_Video.mrc
+
+Top100_500\USAtop500AB.mrc
+Top100_500\USAtop500eBK.mrc
+Top100_500\USAtop500Mus.mrc
+
+4. Run report #3099, download the data as a csv file to your computer, open the file in Excel and create a second worksheet
+
+The SQL for report #3099 is:
+
+----------
+
+SELECT
+  items.itemnumber,
+  items.biblionumber,
+  items.ccode,
+  items.homebranch,
+  items.itemcallnumber,
+  ExtractValue(biblio_metadata.metadata, '//datafield[@tag="037"]/subfield[@code="a"]') AS STOCK_NUMBER,
+  ExtractValue(biblio_metadata.metadata, '//datafield[@tag="856"]/subfield[@code="y"]') AS YX,
+  ExtractValue(biblio_metadata.metadata, '//datafield[@tag="856"]/subfield[@code="z"]') AS Z
+FROM
+  items
+  JOIN biblio_metadata ON items.biblionumber = biblio_metadata.biblionumber
+WHERE
+  items.itemcallnumber = 'Hoopla'
+GROUP BY
+  STOCK_NUMBER
+
+----------
+
+5. Open MM__Removed__List.xlsx and copy column A from that file into "Sheet2" in the csv file you've created in step 4
+
+6. Fix any number stored as text errors in "Sheet2" "Column A" before proceeding
+
+7. In the "Sheet1" in the file created in step 4 add this formula into cell I2 and then copy that formula into every cell in column I
+
+
+---
+
+=IF(ISERROR(VLOOKUP(F2,Sheet2!$A$2:Sheet2!$A$65000, 1, FALSE)),FALSE,TRUE )
+
+---
+
+8. Filter column I to show only results that are "TRUE"
+
+9. Copy the item numbers from column A in the filtered worksheet, paste them into a .txt file and delete all of these items with the batch deletion tool
+
+10. Be sure the batch deletion tool is set to delete any empty biblios
+
+11. Use Marcedit to modify all of the files downloaded in step 3.  Use the appropriate MarcEdit macro to update each file for Next Search Catalog
+
+12. Join all of the mrc files modified in step 11
+
+13. Import the mrc file into Koha, Match on 020$a (ISBN) add incoming items and import the records into NExpress
+
+Twice per year - January and July -, delete all Hoopla records and import
+
+USA_Comic.mrc
+USA_TV_Video.mrc
+USA_Video.mrc
+
+This will fix any errors that may take place in the course of the year in terms of adding new comics/movies/tv and deleting old ones.

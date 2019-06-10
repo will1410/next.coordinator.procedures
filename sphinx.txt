@@ -1,0 +1,10 @@
+Sphinx
+
+xcopy /s /i /e /y C:\Users\George\Documents\GitHub\next.training\build\html C:\Users\George\Documents\GitHub\next.training\docs
+
+https://will1410.github.io/next.training/basic/appendix.html#stafflocked
+
+
+Got a call from an old friend!
+
+G1e2t3t4h5e6j7o8b9d0o1n2e3!
