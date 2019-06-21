@@ -1,0 +1,5 @@
+,
+
+I'm going to be changing a part of your circulation rules that you may or may not care about - the "Holds allowed (total)" count.  Currently this number is set at 100 and up until our upgrade last week, that number was meaningless.  The field in the circulation rules requires a number, and because of the way that rules for requests are applied, there has been a flaw in the logic of the software that, essentially made 100 more-or-less synonymous with "Unlimited requests."  But that underlying logic was altered in our last upgrade.
+
+Here's some background information:

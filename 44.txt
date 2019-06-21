@@ -1,0 +1,92 @@
+$("#item-transfer-modal")
+
+
+
+$("#item-transfer-modal [name='dotransfer']").attr('data-url', $(this).attr('data-url').replace('barcode', 'barcode='));
+
+
+$('#catalog_detail #batchedit').attr('data-url', function(index, src) {
+    return src.replace('branchcode', 'branchcode=')
+})
+
+
+
+$("#item-transfer-modal data-url").each( function() {
+ $(this).attr('data-url').replace('branchcode','branchcode='));
+});
+
+
+
+$('#item-transfer-modal').attr('data-url', function(_,v){
+ return v.replace(/(branchcode)/g,'$1 $3')
+}).attr('data-url', function(_,v){
+ return v.replace(/(branchcode=)/g,'branchcode=')
+});
+
+
+$('#item-transfer-modal').attr('data-url', function(_, attr) {
+   return attr.replace('branchcode', 'branchcode=');
+});
+
+$()
+
+
+$("#item-transfer-modal data-url:contains('branchcode')").each(function() {
+ this = this.replace('branchcode', 'branchcode=');
+})
+
+
+  $('#item-transfer-modal[data-url*="branchcode"]').attr('data-url', function(_,v){
+   return v.replace(/branchcode/g,'$1 $3')
+     }).attr('data-url', function(_,v){
+   return v.replace(/branchcode/g,'=')
+  });
+
+  $('#item-transfer-modal data-url').each(function() {
+        this.data = this.data.replace('branchcode', 'branchcode=');
+		});
+
+
+
+$('#item-transfer-modal').each(function(){
+  $(this).data("url").replace('branchcode','branchcode=')
+});
+
+$(this).data("url")
+
+$('#item-transfer-modal data-url').each(function(){
+    $(this).attr('data-url', $(this).attr('data-url').replace('branchcode','branchcode='));
+});
+
+
+
+$('#messagetable td:contains("Item checkout")').each(function() {
+ var text = $(this).text();
+ $(this).text(text.replace('Item checkout', 'Email check-out/renewal receipt'));
+});
+
+
+$('#item-transfer-modal data-url:contains("branchcode")').each(function() {
+ var stuff = $(this).data("url");
+ $(this).data("url").(stuff.replace('branchcode', 'branchcode='));
+});
+
+this.print.replace('branchcode', 'branchcode=')
+
+
+$('.btn.btn-default.print.openWin').each(function(){
+    this.data-url = this.data-url.replace('branchcode', 'branchcode=');
+});
+
+
+
+
+
+
+
+if ( $('##item-transfer-modal').length ) {
+ $.getJSON("/cgi-bin/koha/svc/report?id=3186%26param_name=borrowernumber&sql_params=" + ($("#hold-found2 input[name=borrowernumber]").val()) + "&annotated=1", function(data) {
+  var zname = data[0].BORROWER_NAME;
+  $('#hold-found2 li span[class=patron-category]').parent().prepend(zname);
+ });
+}

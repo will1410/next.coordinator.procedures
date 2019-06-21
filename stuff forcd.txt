@@ -1,0 +1,11 @@
+Cindy,
+
+As far as use reports go:
+
+1. I need to know how many of my patrons are logging in to use NEXT
+  - This has not been obtainable in the past because Koha does not track when patrons access the catalog.  However, with the upgrade we just did on June 15, this becomes trackable.
+
+2. how many are requesting books form other libraries etc.
+  - Report on home page in KOHA
+
+3. 

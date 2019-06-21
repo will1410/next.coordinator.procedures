@@ -1,0 +1,5 @@
+data-url="transfer-slip.pl?transferitem=1830526&amp;&amp;branchcodeLEAVENWRTH&amp;op=slip"
+
+data-url="transfer-slip.pl?transferitem=1830526&amp;&amp;branchcode=LEAVENWRTH&amp;op=slip"
+
+transfer-slip.pl?transferitem=1830526&&branchcodeLEAVENWRTH&op=slip
