@@ -1,6 +1,7 @@
 Statistics - General update - Reports 2880, 2881, 2898, 2969
 Statistics - Hoopla
 Statistics - Requests - Report 2975
+Statistics - Net borrower/net lender -
 Statistics for board report
 Statistics - Update Koha home page
 Hoopla Marc Update
