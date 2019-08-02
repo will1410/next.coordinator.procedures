@@ -40,4 +40,16 @@ Monthly statistics
 
 21.  Save the new file on the file server at S:\Organization\Executive Board\Exec. Bd. Monthly Report\[current year] Board Reports\[current year and month]\YYYY.MM.next.statistics.xslx
 
-22.  
+-----
+
+22.  Run report 2975
+
+23.  Open the Google drive folder \Linked in NEXT\Statistics\ for the current year and find the Excel spreadsheet titled [current year].requests.xlsx
+
+24.  Unhide the "xx-raw" worksheet for the current month
+
+25.  Copy columns B-I from the csv from report 2975 to columns B-I of "xx-raw" for the current month and save the file
+
+25.  Go to the administration module in Koha and search for the "IntranetmainUserblock" system preference and open it
+
+26.  In IntranetmainUserblock at #request-stats, update the "Updated" date to today's date and then click on "Save all Staff Client preferences"
