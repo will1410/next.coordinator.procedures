@@ -1,0 +1,48 @@
+Add message when item with a damaged status is checked in
+
+This process requires 2 parts - a report and some jQuery.
+
+The report:
+
+SELECT
+  Concat(
+    '<h3 id="damageditem" class="problem" autofocus>Item ',
+    items.barcode,
+    ' marked with DAMAGED status of "',
+    damageds.lib,
+    '" on ',
+    Date_Format(items.damaged_on, '%Y-%m-%d'),
+    '.</h3>'
+  ) AS MESSAGE,
+  If(items.damaged > 0, 'block', 'none') AS DISPLAY,
+  damageds.lib
+FROM
+  items
+  JOIN (
+    SELECT
+      authorised_values.id,
+      authorised_values.category,
+      authorised_values.authorised_value,
+      authorised_values.lib,
+      authorised_values.imageurl,
+      authorised_values.lib_opac
+    FROM
+      authorised_values
+    WHERE
+      authorised_values.category = 'DAMAGED'
+  ) damageds
+    ON damageds.authorised_value = items.damaged
+WHERE
+  items.barcode = <<Enter item barcode number>>
+
+The jQuery:
+
+//Circulation > Check-in
+ //Display a pop-up if an item has a damage status set (requires corresponding report)
+  if ( $('#checkin-form').length ) {
+   $.getJSON("/cgi-bin/koha/svc/report?id=3250%26param_name=Enter+item+barcode+number&sql_params=" + ($('.yui-u fieldset input[name="ri-0"]').val()) + "&annotated=1", function(data) {
+    var damaged1 = data[0].DISPLAY;
+    var message1 = data[0].MESSAGE;
+    $('#circ_returns .yui-b .yui-g #exemptfines').before('<div id="damageditemcheckin" class="dialog alert audio-alert-warning" style="display: ' + damaged1 + '"><h2>Damaged item message</h2>' + message1 + '<p>DAMAGED statuses must be removed manually - they are not removed by the checkin process.</p></div>');
+   });
+  }
