@@ -1,0 +1,72 @@
+=IF(Sheet1!A2="APS", "Axtell Public School",
+ IF(Sheet1!A2="SES", "Sabetha Elementary School",
+ IF(Sheet1!A2="SHS", "Sabetha High School",
+ IF(Sheet1!A2="SMS", "Sabetha Middle School",
+ IF(Sheet1!A2="WAC", "Wetmore Academic Center",
+ "X"
+)
+)
+)
+)
+)
+
+
+=IF(Sheet1!A2="APS", "504 Pine St",
+ IF(Sheet1!A2="SES", "101 Oregon St",
+ IF(Sheet1!A2="SHS", "1011 Blue Jay Blvd",
+ IF(Sheet1!A2="SMS", "751 Blue Jay Blvd",
+ IF(Sheet1!A2="WAC", "PO Box AB",
+ "X"
+)
+)
+)
+)
+)
+
+=IF(Sheet1!A2="APS", "Axtell",
+ IF(Sheet1!A2="SES", "Sabetha",
+ IF(Sheet1!A2="SHS", "Sabetha",
+ IF(Sheet1!A2="SMS", "Sabetha",
+ IF(Sheet1!A2="WAC", "Wetmore",
+ "X"
+)
+)
+)
+)
+)
+
+=IF(Sheet1!A2="APS", "66403",
+ IF(Sheet1!A2="SES", "66534",
+ IF(Sheet1!A2="SHS", "66534",
+ IF(Sheet1!A2="SMS", "66534",
+ IF(Sheet1!A2="WAC", "66550",
+ "X"
+)
+)
+)
+)
+)
+
+=IF(Sheet1!A2="APS", "785-736-2237",
+ IF(Sheet1!A2="SES", "785-284-3448",
+ IF(Sheet1!A2="SHS", "785-284-2155",
+ IF(Sheet1!A2="SMS", "785-284-2151",
+ IF(Sheet1!A2="WAC", "785-866-2860",
+ "X"
+)
+)
+)
+)
+)
+
+=IF(Sheet1!A2="APS", "PHAXTELL",
+ IF(Sheet1!A2="SES", "PHSES",
+ IF(Sheet1!A2="SHS", "PHSHS",
+ IF(Sheet1!A2="SMS", "PHSMS",
+ IF(Sheet1!A2="WAC", "PHWAC",
+ "X"
+)
+)
+)
+)
+)

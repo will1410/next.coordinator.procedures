@@ -1,0 +1,18 @@
+Tyler,
+
+Here are the pertinent things I can tell you about Next Search Catalog as you think about whether you want to stay in the shared catalog with KCK Public or move to a new ILS.
+
+Next Search Catalog began in 2009 under the name "NExpress."  Several NEKLS public libraries had previously been in a shared ILS with KCMO but they were unhappy with that situation, so NEKLS worked with those libraries to choose an ILS and then to act as the administrator of that new ILS and to migrate all of the member libraries data to the new ILS.
+
+The ILS that NEKLS chose was Koha - an open source ILS.  You can find out more about Koha at https://koha-community.org/
+
+NEKLS contracts with ByWater Solutions for Koha support.  Specifically ByWater hosts our server off-site (so that we don't have to maintain our own server) and they manage all of our software upgrades (major releases 2 times per year - security/patch updates monthly) and they provide training for NEKLS staff prior to each major release so that we can turn around and provide training to the Next Search Catalog members).  They also manage the Koha end of any new library migrations for us.  You can learn more about ByWater Solutions at https://bywatersolutions.com/
+
+When Nexpress went live there were 17 public library members.  Within the first year, 11 additional members joined.  Currently we have 51 member libraries - 45 public libraries, 5 school libraries, and 1 academic library.  You can see a list of our member libraries at https://nextkansas.org/cgi-bin/koha/pages.pl?p=libraries (the 5 school libraries are all grouped under "Prairie Hills Schools.")
+
+NEKLS pays the bulk of the cost of Next Search Catalog.  For 2019 NEKLS estimated that the cost of Next Search Catalog (including courier service for member libraries) would be $505,066 and that NEKLS would pay $379,394 of that total amount. The cost that Donnelly College would need to pay for membership in Next Search Catalog would the one-time cost of migrating your data into Next Search Catalog, plus the annual cost of membership for your library (which can be found on the copy of the Next Search Catalog Participation Agreement I gave you a copy of) plus the cost of being a member of the KLE courier.
+
+The cost of migrating your data into Next Search Catalog would be based on the number of bibliographic and item records that we would need to migrate into Koha.  Our contract with ByWater Solutions specifies $.05 per record, so the quick way to determine this cost is to get a count of items in your collection from KCK Public times $.05.  For Highland Community College, NEKLS gave them a grant to cover the cost of the migration 
+
+
+George
