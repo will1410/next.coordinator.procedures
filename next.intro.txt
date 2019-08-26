@@ -2,17 +2,37 @@ Tyler,
 
 Here are the pertinent things I can tell you about Next Search Catalog as you think about whether you want to stay in the shared catalog with KCK Public or move to a new ILS.
 
-Next Search Catalog began in 2009 under the name "NExpress."  Several NEKLS public libraries had previously been in a shared ILS with KCMO but they were unhappy with that situation, so NEKLS worked with those libraries to choose an ILS and then to act as the administrator of that new ILS and to migrate all of the member libraries data to the new ILS.
+Next Search Catalog began in 2009 under the name "NExpress."  Several NEKLS public libraries had previously been using a shared catalog with KCMO but the libraries involved were not happy with that situation, so NEKLS worked with those libraries to choose an new ILS in order to create new shared catalog for NEKLS members.  NEKLS continues to act as the administrator for the shared catalog and we help provide training and support to our members and we coordinate data migrations of new libraries with the help of our ILS support company.
 
-The ILS that NEKLS chose was Koha - an open source ILS.  You can find out more about Koha at https://koha-community.org/
+The ILS that NEKLS chose was Koha - an open source ILS.  Koha was the world's first open source ILS; it is currently used by libraries on all 7 continents; and Catalyst IT in New Zealand and Marshall Breeding unofficially estimate that Koha is used by more than 15,000 libraries worldwide - making it the most commonly used ILS in the world.  You can find out more about Koha at https://koha-community.org/
 
-NEKLS contracts with ByWater Solutions for Koha support.  Specifically ByWater hosts our server off-site (so that we don't have to maintain our own server) and they manage all of our software upgrades (major releases 2 times per year - security/patch updates monthly) and they provide training for NEKLS staff prior to each major release so that we can turn around and provide training to the Next Search Catalog members).  They also manage the Koha end of any new library migrations for us.  You can learn more about ByWater Solutions at https://bywatersolutions.com/
+NEKLS contracts with ByWater Solutions for Koha support.  Specifically ByWater hosts our server off-site (so that we don't have to maintain our own server) and they manage all of our software upgrades (major releases 2 times per year - security/bug-fix updates monthly) and they provide training for NEKLS staff prior to each major release (so that we can turn around and provide training to the Next Search Catalog members).  They also manage the Koha end of any new library migrations for us.  You can learn more about ByWater Solutions at https://bywatersolutions.com/
 
-When Nexpress went live there were 17 public library members.  Within the first year, 11 additional members joined.  Currently we have 51 member libraries - 45 public libraries, 5 school libraries, and 1 academic library.  You can see a list of our member libraries at https://nextkansas.org/cgi-bin/koha/pages.pl?p=libraries (the 5 school libraries are all grouped under "Prairie Hills Schools.")
+When Nexpress went live there were 11 public library members.  Within the first year, 17 additional members joined.  Currently we have 51 member libraries - 45 public libraries, 5 school libraries, and 1 academic library.  You can see a list of our member libraries at https://nextkansas.org/cgi-bin/koha/pages.pl?p=libraries (the 5 school libraries are all grouped under "Prairie Hills Schools.")
 
-NEKLS pays the bulk of the cost of Next Search Catalog.  For 2019 NEKLS estimated that the cost of Next Search Catalog (including courier service for member libraries) would be $505,066 and that NEKLS would pay $379,394 of that total amount. The cost that Donnelly College would need to pay for membership in Next Search Catalog would the one-time cost of migrating your data into Next Search Catalog, plus the annual cost of membership for your library (which can be found on the copy of the Next Search Catalog Participation Agreement I gave you a copy of) plus the cost of being a member of the KLE courier.
+NEKLS pays the bulk of the cost of Next Search Catalog.  For 2019 NEKLS estimated that the cost of Next Search Catalog (including courier service for member libraries) would be $505,066 and that NEKLS would pay $379,394 of that total amount
 
-The cost of migrating your data into Next Search Catalog would be based on the number of bibliographic and item records that we would need to migrate into Koha.  Our contract with ByWater Solutions specifies $.05 per record, so the quick way to determine this cost is to get a count of items in your collection from KCK Public times $.05.  For Highland Community College, NEKLS gave them a grant to cover the cost of the migration 
+The cost that Donnelly College would need to pay for membership in Next Search Catalog would the one-time cost of migrating your data into Next Search Catalog, plus the annual cost of membership for your library (which can be found on the copy of the Next Search Catalog Participation Agreement I gave you) plus the cost of being a member of the KLE courier.
+
+The cost of migrating your library's data into Next Search Catalog would be based on the number of bibliographic and item records that we would need to migrate into Koha.  Our contract with ByWater Solutions specifies $.05 per record, so the quick way to determine this cost is to get a count of items in your library's collection from KCK Public times $.05.  Based on the IPEDS data I have from Jane last year, you should have around 14,000 items so this would be in the $700 range.  If your library decides to explore joining Next Search Catalog further, I can talk with the NEKLS director about trying to do a grant for the cost of migrating your library's data into Next Search Catalog (this is something we have done in the past).
+
+The annual cost of membership from the participation agreement I gave you is based on your library's total budget.  This formula we use was designed originally for public libraries and is based on the amount each library reports annually on the State Library of Kansas/IMLS survey that public libraries all across Kansas are required to fill out each January.  Since Academic libraries don't fill out this survey, we would base your budget on the amount that Donnelly College reports each year on the library section of its IPEDS survey.  The amount on the copy of the survey Jane sent me last year was listed as "Less than $100,000" which would put your annual fee at $675.
+
+As far as the courier service goes, you're already a member of the KLE courier, so that would not be an additional expense for your library.
+
+--
+
+In addition to the shared ILS, part of the $505,066 that NEKLS spends each year on Next Search Catalog includes Flipster, Novelist Select, and Hoopla.
+
+Flipster is something you're probably familiar with because I know KCK Public offers this service as well.  We currently subscribe to 44 magazines via Flipster.  Earlier this year NEKLS added and fully funded LIBRARY JOURNAL to our Flipster collection as a professional development resource.  Many of our member libraries contribute to the fund we use to provide Flipster.  If, for example, there was a magazine available that you wanted to add to Flipster but were unable to afford the full cost, we would be able to help find other libraries that might be interested in contributing to the cost of that title and NEKLS might be able to contribute also.
+
+Hoopla is also something you're probably familiar with because KCK Public also offers Hoopla.  That being said, I don't know if your students have access because of the cost.  Hoopla is a per-use e-book, e-audiobook, e-music, e-video service.  Each time a patron downloads an item from Hoopla, your library would be billed between $.99-3.99 for that download (depending on the cost of the item).  NEKLS subsidizes the cost of Hoopla for Next Search Catalog members through a grant program we have in place.  The grant is based on 45% of the amount your library spent on Hoopla the previous year.  We would work out a way of helping pay for the first year of Hoopla so we could determine the amount of the grant for following years.
+
+We are also hoping to add Ebsco Discovery Service to Next Search Catalog this year as well.
+
+--
+
+For staff 
 
 
 George
