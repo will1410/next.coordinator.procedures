@@ -97,9 +97,39 @@ Sub Adults_w_guarantors()
     Selection.Replace What:=",", Replacement:="", LookAt:=xlPart, _
         SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
         ReplaceFormat:=False
+    Range("AF:AF,AI:AI,AJ:AJ,AK:AK,AN:AN").Select
+    Selection.Replace What:="0000-00-00", Replacement:="", LookAt:=xlPart, _
+        SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+        ReplaceFormat:=False
+    Range("AF:AF,AI:AI,AJ:AJ,AK:AK,AN:AN").Select
+    Selection.Replace What:="12/31/9999", Replacement:="12/31/2099", LookAt:=xlPart, _
+        SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+        ReplaceFormat:=False
+    Range([AO2], [AO:AO].Find("*", [AO1], , , xlByRows, xlPrevious)).Select
+    Selection.Replace What:="*", Replacement:="", LookAt:=xlPart, _
+        SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+        ReplaceFormat:=False
+    Range([AP2], [AP:AP].Find("*", [AP1], , , xlByRows, xlPrevious)).Select
+    Selection.Replace What:="*", Replacement:="", LookAt:=xlPart, _
+        SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+        ReplaceFormat:=False
+    Range([AQ2], [AQ:AQ].Find("*", [AQ1], , , xlByRows, xlPrevious)).Select
+    Selection.Replace What:="*", Replacement:="", LookAt:=xlPart, _
+        SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+        ReplaceFormat:=False
+    Range([AR2], [AR:AR].Find("*", [AR1], , , xlByRows, xlPrevious)).Select
+    Selection.Replace What:="*", Replacement:="", LookAt:=xlPart, _
+        SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+        ReplaceFormat:=False
+    Range([AS2], [AS:AS].Find("*", [AS1], , , xlByRows, xlPrevious)).Select
+    Selection.Replace What:="*", Replacement:="", LookAt:=xlPart, _
+        SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+        ReplaceFormat:=False
     Columns("Q:Q").Select
     Selection.NumberFormat = "0"
 End Sub
 ```
+
+
 
 4. Use the patron import tool to overwrite the data for these patrons in Koha.  Use the options "Match on cardnumber;" "Overwrite the existing one with this;" and "Replace only included patron attributes."
