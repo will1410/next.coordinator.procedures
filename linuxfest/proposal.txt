@@ -15,19 +15,3 @@ In the event that your talk is selected: Do you have any contact information (we
 
 George Williams - Next Search Catalog Coordinator - Northeast Kansas Library System
   About 18 years in libraries - my journey into libraries was kind of weird - college drop-out; became a bus driver; went back to college and started working at Boise Public Library 10 hours per week when their
-
-What is Koha
-
-  Koha is actually a Maori word for "gift"
-
-  Open source ILS/ILMS - (need to define ILS/ILMS)
-    Developed in late 1999 in New Zealand for the Horowhenua Library Trust
-    Developed to replace a proprietary ILS that has a known Y2K bug
-    Decision made early on to produce Koha as open source project
-
-
-What is the community like
-
-Open source in the library world
-
-Koha in nextkansas
