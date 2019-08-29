@@ -4,7 +4,7 @@ Sometimes the process that promotes a child from one of the minor categories to 
 
 1. Run report 3145 - GHW - ADMINREPORT - Adult patrons with guarantors.  The SQL for this report is:
 
-```
+```SQL
 SELECT
   borrowers.borrowernumber,
   borrowers.cardnumber,
@@ -41,7 +41,11 @@ SELECT
   borrowers.branchcode,
   borrowers.categorycode,
   borrowers.dateenrolled,
-  borrowers.dateexpiry,
+  IF(
+    borrowers.dateexpiry >= curdate(),
+    (curdate() - interval 1 day),
+    borrowers.dateexpiry
+  ) AS dateexpiry,
   borrowers.date_renewed,
   borrowers.gonenoaddress,
   borrowers.lost,
@@ -68,12 +72,13 @@ SELECT
 FROM
   borrowers
 WHERE
-  (borrowers.dateofbirth <= CurDate() - INTERVAL 18 YEAR or borrowers.dateofbirth IS NULL) AND
-  (borrowers.guarantorid is not null OR
-  borrowers.guarantorid <> "" OR
-  borrowers.contactname <> "" OR
-  borrowers.contactfirstname <> "" OR
-  borrowers.contacttitle <> "")
+  (borrowers.dateofbirth <= CurDate() - INTERVAL 18 YEAR OR
+    borrowers.dateofbirth IS NULL) AND
+  (borrowers.guarantorid IS NOT NULL OR
+    borrowers.guarantorid <> "" OR
+    borrowers.contactname <> "" OR
+    borrowers.contactfirstname <> "" OR
+    borrowers.contacttitle <> "")
 ORDER BY
   borrowers.borrowernumber
 ```
@@ -82,7 +87,7 @@ ORDER BY
 
 3. Process the csv file so that the cardnumber column is formatted as numbers with no decimals, all date columns are formatted as mm/dd/yyyy, all rogue comas are removed, and all phone numbers are formatted as numbers with no decimals.  This VBA macro should do all of those things:
 
-```
+```Visual Basic
 Sub Adults_w_guarantors()
 '
 ' Adults with guarantors
