@@ -1,0 +1,49 @@
+cells["addressx"].value
++ " "
++ cells["addressx"].value
++ " "
++ cells["addressx"].value
++ " "
++ cells["addressx"].value
++ " "
++ cells["addressx"].value
++ " "
++ cells["addressx"].value
++ " "
++ cells["addressx"].value
++ " "
++ cells["addressx"].value
++ " "
++ cells["addressx"].value
+
+cells["addressx"].value
+.replace("", "").replace("", "") + " "
+
+cells["addressx"].value
+.replace("Avenue", "").replace("Ave", "").trim() + " Ave"
+
+cells["addressx"].value
+.replace("Circle", "").replace("Cir", "").trim() + " Cir"
+
+cells["addressx"].value
+.replace("Court", "").replace("Ct", "").replace("Crt", "").trim() + " Ct"
+
+cells["addressx"].value
+.replace("Drive", "").replace("Dr", "").trim() + " Dr"
+
+cells["addressx"].value
+.replace("Lane", "").replace("Ln", "").trim() + " Ln"
+
+cells["addressx"].value
+.replace("Place", "").replace("Pl", "").trim() + " Pl"
+
+cells["addressx"].value
+.replace("Road", "").replace("Rd", "").trim() + " Rd"
+
+cells["addressx"].value
+.replace("Street", "").replace("St", "").trim() + " St"
+
+cells["addressx"].value
+.replace("Terrace", "").replace("Terr", "").replace("Ter", "").trim() + " Terr"
+
+.replace("North", "N").replace("South", "S")
